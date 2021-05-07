@@ -6,8 +6,8 @@ class Cards {
 
     private String name;
     private String id;
-    public String description;
-    public String state;
+    private String description;
+    private String state;
     //state could also be boolean
 
     public String cardState(String state) {
@@ -18,15 +18,20 @@ class Cards {
         }
     }
 
+    public void addCardName() {
+        allCardsName.add(getName());
+    }
+
+    public void addCardId() {
+        allCardsId.add(getId());
+    }
+
 //    HashMap<String,String> allCardsNameAndDescription=new HashMap<>();
 
 
     ArrayList<String> allCardsName = new ArrayList<>();
-
-    public String allCardsName(String name) {
-        allCardsName.add(name);
-        return allCardsName.toString();
-    }
+    ArrayList<String> allCardsId = new ArrayList<>();
+    ArrayList<String> listOfCards;
 
     public String getName() {
         return name;
