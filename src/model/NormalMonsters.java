@@ -1,8 +1,8 @@
-package Model;
+package model;
 
-public class NormalMonsters extends Monsters{
+public class NormalMonsters extends Monsters {
 
-    abstract class BattleOx extends Monsters implements NormalMonster{
+    abstract class BattleOx extends Monsters implements NormalMonster {
         @Override
         public void setName(String name) {
             super.setName("BattleOx");
@@ -73,7 +73,7 @@ public class NormalMonsters extends Monsters{
         }
     }
 
-    abstract class AxeRaider extends Monsters implements NormalMonster{
+    abstract class AxeRaider extends Monsters implements NormalMonster {
         @Override
         public void setName(String name) {
             super.setName("AxeRaider");
@@ -144,7 +144,7 @@ public class NormalMonsters extends Monsters{
         }
     }
 
-    abstract class HornImp extends Monsters implements NormalMonster{
+    abstract class HornImp extends Monsters implements NormalMonster {
         @Override
         public void setName(String name) {
             super.setName("HornImp");
@@ -215,7 +215,7 @@ public class NormalMonsters extends Monsters{
         }
     }
 
-    abstract class SilverFang extends Monsters implements NormalMonster{
+    abstract class SilverFang extends Monsters implements NormalMonster {
         @Override
         public void setName(String name) {
             super.setName("SilverFang");
@@ -286,7 +286,7 @@ public class NormalMonsters extends Monsters{
         }
     }
 
-    abstract class Fireyarou extends Monsters implements NormalMonster{
+    abstract class Fireyarou extends Monsters implements NormalMonster {
         @Override
         public void setName(String name) {
             super.setName("Fireyarou");
@@ -357,7 +357,7 @@ public class NormalMonsters extends Monsters{
         }
     }
 
-    abstract class CurtainOfDarkOnes extends Monsters implements NormalMonster{
+    abstract class CurtainOfDarkOnes extends Monsters implements NormalMonster {
         @Override
         public void setName(String name) {
             super.setName("CurtainOfDarkOnes");
@@ -428,7 +428,7 @@ public class NormalMonsters extends Monsters{
         }
     }
 
-    abstract class FeralImp extends Monsters implements NormalMonster{
+    abstract class FeralImp extends Monsters implements NormalMonster {
         @Override
         public void setName(String name) {
             super.setName("FeralImp");
@@ -499,7 +499,7 @@ public class NormalMonsters extends Monsters{
         }
     }
 
-    abstract class DarkMagician extends Monsters implements NormalMonster{
+    abstract class DarkMagician extends Monsters implements NormalMonster {
         @Override
         public void setName(String name) {
             super.setName("DarkMagician");
@@ -570,7 +570,7 @@ public class NormalMonsters extends Monsters{
         }
     }
 
-    abstract class Wattkid extends Monsters implements NormalMonster{
+    abstract class Wattkid extends Monsters implements NormalMonster {
         @Override
         public void setName(String name) {
             super.setName("Wattkid");
@@ -644,7 +644,7 @@ public class NormalMonsters extends Monsters{
         }
     }
 
-    abstract class BabyDragon extends Monsters implements NormalMonster{
+    abstract class BabyDragon extends Monsters implements NormalMonster {
         @Override
         public void setName(String name) {
             super.setName("BabyDragon");
@@ -715,7 +715,7 @@ public class NormalMonsters extends Monsters{
         }
     }
 
-    abstract class HeroOfTheEast extends Monsters implements NormalMonster{
+    abstract class HeroOfTheEast extends Monsters implements NormalMonster {
         @Override
         public void setName(String name) {
             super.setName("HeroOfTheEast");
@@ -786,7 +786,7 @@ public class NormalMonsters extends Monsters{
         }
     }
 
-    abstract class BattleWarrior extends Monsters implements NormalMonster{
+    abstract class BattleWarrior extends Monsters implements NormalMonster {
         @Override
         public void setName(String name) {
             super.setName("BattleWarrior");
@@ -857,7 +857,7 @@ public class NormalMonsters extends Monsters{
         }
     }
 
-    abstract class CrawlingDragon extends Monsters implements NormalMonster{
+    abstract class CrawlingDragon extends Monsters implements NormalMonster {
         @Override
         public void setName(String name) {
             super.setName("CrawlingDragon");
@@ -928,7 +928,7 @@ public class NormalMonsters extends Monsters{
         }
     }
 
-    abstract class FlameManipulator extends Monsters implements NormalMonster{
+    abstract class FlameManipulator extends Monsters implements NormalMonster {
         @Override
         public void setName(String name) {
             super.setName("FlameManipulator");
@@ -999,7 +999,7 @@ public class NormalMonsters extends Monsters{
         }
     }
 
-    abstract class BlueEyesWhiteDragon extends Monsters implements NormalMonster{
+    abstract class BlueEyesWhiteDragon extends Monsters implements NormalMonster {
         @Override
         public void setName(String name) {
             super.setName("BlueEyesWhiteDragon");
@@ -1070,7 +1070,7 @@ public class NormalMonsters extends Monsters{
         }
     }
 
-    abstract class CrabTurtle extends Monsters implements NormalMonster{
+    abstract class CrabTurtle extends Monsters implements NormalMonster {
         @Override
         public void setName(String name) {
             super.setName("CrabTurtle");
@@ -1141,7 +1141,7 @@ public class NormalMonsters extends Monsters{
         }
     }
 
-    abstract class SkullGuardian extends Monsters implements NormalMonster{
+    abstract class SkullGuardian extends Monsters implements NormalMonster {
         @Override
         public void setName(String name) {
             super.setName("SkullGuardian");
@@ -1212,7 +1212,7 @@ public class NormalMonsters extends Monsters{
         }
     }
 
-    abstract class SlutMachine extends Monsters implements NormalMonster{
+    abstract class SlutMachine extends Monsters implements NormalMonster {
         @Override
         public void setName(String name) {
             super.setName("SlutMachine");
@@ -1283,7 +1283,7 @@ public class NormalMonsters extends Monsters{
         }
     }
 
-    abstract class Haniwa extends Monsters implements NormalMonster{
+    abstract class Haniwa extends Monsters implements NormalMonster {
         @Override
         public void setName(String name) {
             super.setName("Haniwa");
@@ -1354,7 +1354,7 @@ public class NormalMonsters extends Monsters{
         }
     }
 
-    abstract class Bitron extends Monsters implements NormalMonster{
+    abstract class Bitron extends Monsters implements NormalMonster {
         @Override
         public void setName(String name) {
             super.setName("Bitron");
@@ -1425,7 +1425,7 @@ public class NormalMonsters extends Monsters{
         }
     }
 
-    abstract class Leotron extends Monsters implements NormalMonster{
+    abstract class Leotron extends Monsters implements NormalMonster {
         @Override
         public void setName(String name) {
             super.setName("Leotron");
@@ -1496,7 +1496,7 @@ public class NormalMonsters extends Monsters{
         }
     }
 
-    abstract class AlexandriteDragon extends Monsters implements NormalMonster{
+    abstract class AlexandriteDragon extends Monsters implements NormalMonster {
         @Override
         public void setName(String name) {
             super.setName("AlexandriteDragon");
@@ -1567,7 +1567,7 @@ public class NormalMonsters extends Monsters{
         }
     }
 
-    abstract class WarriorDaiGrepher extends Monsters implements NormalMonster{
+    abstract class WarriorDaiGrepher extends Monsters implements NormalMonster {
         @Override
         public void setName(String name) {
             super.setName("WarriorDaiGrepher");
@@ -1638,7 +1638,7 @@ public class NormalMonsters extends Monsters{
         }
     }
 
-    abstract class DarkBlade extends Monsters implements NormalMonster{
+    abstract class DarkBlade extends Monsters implements NormalMonster {
         @Override
         public void setName(String name) {
             super.setName("DarkBlade");
@@ -1709,7 +1709,7 @@ public class NormalMonsters extends Monsters{
         }
     }
 
-    abstract class Wattialdragon extends Monsters implements NormalMonster{
+    abstract class Wattialdragon extends Monsters implements NormalMonster {
         @Override
         public void setName(String name) {
             super.setName("Wattialdragon");
@@ -1781,7 +1781,7 @@ public class NormalMonsters extends Monsters{
         }
     }
 
-    abstract class SpiralSerpent extends Monsters implements NormalMonster{
+    abstract class SpiralSerpent extends Monsters implements NormalMonster {
         @Override
         public void setName(String name) {
             super.setName("SpiralSerpent");

@@ -1,8 +1,8 @@
-package Model;
+package model;
 
-public class EffectiveMonsters extends Monsters{
+public class EffectiveMonsters extends Monsters {
 
-    abstract class CommandKnight extends Monsters implements EffectiveMonster{
+    abstract class CommandKnight extends Monsters implements EffectiveMonster {
         @Override
         public void setName(String name) {
             super.setName("CommandKnight");
@@ -75,7 +75,7 @@ public class EffectiveMonsters extends Monsters{
 
     }
 
-    abstract class YomiShip extends Monsters implements EffectiveMonster{
+    abstract class YomiShip extends Monsters implements EffectiveMonster {
         @Override
         public void setName(String name) {
             super.setName("YomiShip");
@@ -147,7 +147,7 @@ public class EffectiveMonsters extends Monsters{
         }
     }
 
-    abstract class Suijin extends Monsters implements EffectiveMonster{
+    abstract class Suijin extends Monsters implements EffectiveMonster {
         @Override
         public void setName(String name) {
             super.setName("Suijin");
@@ -219,7 +219,7 @@ public class EffectiveMonsters extends Monsters{
         }
     }
 
-    abstract class ManEaterBug extends Monsters implements EffectiveMonster{
+    abstract class ManEaterBug extends Monsters implements EffectiveMonster {
         @Override
         public void setName(String name) {
             super.setName("ManEaterBug");
@@ -291,7 +291,7 @@ public class EffectiveMonsters extends Monsters{
         }
     }
 
-    abstract class GateGuardian extends Monsters implements EffectiveMonster{
+    abstract class GateGuardian extends Monsters implements EffectiveMonster {
         @Override
         public void setName(String name) {
             super.setName("GateGuardian");
@@ -363,7 +363,7 @@ public class EffectiveMonsters extends Monsters{
         }
     }
 
-    abstract class Scanner extends Monsters implements EffectiveMonster{
+    abstract class Scanner extends Monsters implements EffectiveMonster {
         @Override
         public void setName(String name) {
             super.setName("Scanner");
@@ -435,7 +435,7 @@ public class EffectiveMonsters extends Monsters{
         }
     }
 
-    abstract class Marshmallon extends Monsters implements EffectiveMonster{
+    abstract class Marshmallon extends Monsters implements EffectiveMonster {
         @Override
         public void setName(String name) {
             super.setName("Marshmallon");
@@ -507,7 +507,7 @@ public class EffectiveMonsters extends Monsters{
         }
     }
 
-    abstract class BeastKingBarbaros extends Monsters implements EffectiveMonster{
+    abstract class BeastKingBarbaros extends Monsters implements EffectiveMonster {
         @Override
         public void setName(String name) {
             super.setName("BeastKingBarbaros");
@@ -579,7 +579,7 @@ public class EffectiveMonsters extends Monsters{
         }
     }
 
-    abstract class TexChanger extends Monsters implements EffectiveMonster{
+    abstract class TexChanger extends Monsters implements EffectiveMonster {
         @Override
         public void setName(String name) {
             super.setName("TexChanger");
@@ -651,7 +651,7 @@ public class EffectiveMonsters extends Monsters{
         }
     }
 
-    abstract class TheCalculator extends Monsters implements EffectiveMonster{
+    abstract class TheCalculator extends Monsters implements EffectiveMonster {
         @Override
         public void setName(String name) {
             super.setName("TheCalculator");
@@ -723,7 +723,7 @@ public class EffectiveMonsters extends Monsters{
         }
     }
 
-    abstract class MirageDragon extends Monsters implements EffectiveMonster{
+    abstract class MirageDragon extends Monsters implements EffectiveMonster {
         @Override
         public void setName(String name) {
             super.setName("MirageDragon");
@@ -795,7 +795,7 @@ public class EffectiveMonsters extends Monsters{
         }
     }
 
-    abstract class HeraldOfCreation extends Monsters implements EffectiveMonster{
+    abstract class HeraldOfCreation extends Monsters implements EffectiveMonster {
         @Override
         public void setName(String name) {
             super.setName("HeraldOfCreation");
@@ -867,7 +867,7 @@ public class EffectiveMonsters extends Monsters{
         }
     }
 
-    abstract class ExploderDragon extends Monsters implements EffectiveMonster{
+    abstract class ExploderDragon extends Monsters implements EffectiveMonster {
         @Override
         public void setName(String name) {
             super.setName("ExploderDragon");
@@ -939,7 +939,7 @@ public class EffectiveMonsters extends Monsters{
         }
     }
 
-    abstract class TerratigerTheEmpowredWorrier extends Monsters implements EffectiveMonster{
+    abstract class TerratigerTheEmpowredWorrier extends Monsters implements EffectiveMonster {
         @Override
         public void setName(String name) {
             super.setName("TerratigerTheEmpowredWorrier");
@@ -1011,7 +1011,7 @@ public class EffectiveMonsters extends Monsters{
         }
     }
 
-    abstract class TheTricky extends Monsters implements EffectiveMonster{
+    abstract class TheTricky extends Monsters implements EffectiveMonster {
         @Override
         public void setName(String name) {
             super.setName("TheTricky");
