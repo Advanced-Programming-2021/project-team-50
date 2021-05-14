@@ -70,6 +70,10 @@ public class NormalMonsters extends Monsters {
         public void addCard() {
             listOfCards.add(toString());
         }
+
+        public void addMonsterCard() {
+            super.addMonsterCard();
+        }
     }
 
     abstract class AxeRaider extends Monsters implements NormalMonster {
@@ -139,6 +143,10 @@ public class NormalMonsters extends Monsters {
 
         public void addCard() {
             listOfCards.add(toString());
+        }
+
+        public void addMonsterCard() {
+            super.addMonsterCard();
         }
     }
 
@@ -210,6 +218,10 @@ public class NormalMonsters extends Monsters {
         public void addCard() {
             listOfCards.add(toString());
         }
+
+        public void addMonsterCard() {
+            super.addMonsterCard();
+        }
     }
 
     abstract class SilverFang extends Monsters implements NormalMonster {
@@ -279,6 +291,10 @@ public class NormalMonsters extends Monsters {
 
         public void addCard() {
             listOfCards.add(toString());
+        }
+
+        public void addMonsterCard() {
+            super.addMonsterCard();
         }
     }
 
@@ -350,6 +366,10 @@ public class NormalMonsters extends Monsters {
         public void addCard() {
             listOfCards.add(toString());
         }
+
+        public void addMonsterCard() {
+            super.addMonsterCard();
+        }
     }
 
     abstract class CurtainOfDarkOnes extends Monsters implements NormalMonster {
@@ -419,6 +439,10 @@ public class NormalMonsters extends Monsters {
 
         public void addCard() {
             listOfCards.add(toString());
+        }
+
+        public void addMonsterCard() {
+            super.addMonsterCard();
         }
     }
 
@@ -490,6 +514,10 @@ public class NormalMonsters extends Monsters {
         public void addCard() {
             listOfCards.add(toString());
         }
+
+        public void addMonsterCard() {
+            super.addMonsterCard();
+        }
     }
 
     abstract class DarkMagician extends Monsters implements NormalMonster {
@@ -559,6 +587,10 @@ public class NormalMonsters extends Monsters {
 
         public void addCard() {
             listOfCards.add(toString());
+        }
+
+        public void addMonsterCard() {
+            super.addMonsterCard();
         }
     }
 
@@ -633,6 +665,10 @@ public class NormalMonsters extends Monsters {
         public void addCard() {
             listOfCards.add(toString());
         }
+
+        public void addMonsterCard() {
+            super.addMonsterCard();
+        }
     }
 
     abstract class BabyDragon extends Monsters implements NormalMonster {
@@ -702,6 +738,10 @@ public class NormalMonsters extends Monsters {
 
         public void addCard() {
             listOfCards.add(toString());
+        }
+
+        public void addMonsterCard() {
+            super.addMonsterCard();
         }
     }
 
@@ -773,6 +813,10 @@ public class NormalMonsters extends Monsters {
         public void addCard() {
             listOfCards.add(toString());
         }
+
+        public void addMonsterCard() {
+            super.addMonsterCard();
+        }
     }
 
     abstract class BattleWarrior extends Monsters implements NormalMonster {
@@ -842,6 +886,10 @@ public class NormalMonsters extends Monsters {
 
         public void addCard() {
             listOfCards.add(toString());
+        }
+
+        public void addMonsterCard() {
+            super.addMonsterCard();
         }
     }
 
@@ -913,6 +961,10 @@ public class NormalMonsters extends Monsters {
         public void addCard() {
             listOfCards.add(toString());
         }
+
+        public void addMonsterCard() {
+            super.addMonsterCard();
+        }
     }
 
     abstract class FlameManipulator extends Monsters implements NormalMonster {
@@ -982,6 +1034,10 @@ public class NormalMonsters extends Monsters {
 
         public void addCard() {
             listOfCards.add(toString());
+        }
+
+        public void addMonsterCard() {
+            super.addMonsterCard();
         }
     }
 
@@ -1053,6 +1109,10 @@ public class NormalMonsters extends Monsters {
         public void addCard() {
             listOfCards.add(toString());
         }
+
+        public void addMonsterCard() {
+            super.addMonsterCard();
+        }
     }
 
     abstract class CrabTurtle extends Monsters implements NormalMonster {
@@ -1122,6 +1182,10 @@ public class NormalMonsters extends Monsters {
 
         public void addCard() {
             listOfCards.add(toString());
+        }
+
+        public void addMonsterCard() {
+            super.addMonsterCard();
         }
     }
 
@@ -1193,6 +1257,10 @@ public class NormalMonsters extends Monsters {
         public void addCard() {
             listOfCards.add(toString());
         }
+
+        public void addMonsterCard() {
+            super.addMonsterCard();
+        }
     }
 
     abstract class SlutMachine extends Monsters implements NormalMonster {
@@ -1262,6 +1330,10 @@ public class NormalMonsters extends Monsters {
 
         public void addCard() {
             listOfCards.add(toString());
+        }
+
+        public void addMonsterCard() {
+            super.addMonsterCard();
         }
     }
 
@@ -1333,6 +1405,10 @@ public class NormalMonsters extends Monsters {
         public void addCard() {
             listOfCards.add(toString());
         }
+
+        public void addMonsterCard() {
+            super.addMonsterCard();
+        }
     }
 
     abstract class Bitron extends Monsters implements NormalMonster {
@@ -1402,6 +1478,10 @@ public class NormalMonsters extends Monsters {
 
         public void addCard() {
             listOfCards.add(toString());
+        }
+
+        public void addMonsterCard() {
+            super.addMonsterCard();
         }
     }
 
@@ -1473,6 +1553,10 @@ public class NormalMonsters extends Monsters {
         public void addCard() {
             listOfCards.add(toString());
         }
+
+        public void addMonsterCard() {
+            super.addMonsterCard();
+        }
     }
 
     abstract class AlexandriteDragon extends Monsters implements NormalMonster {
@@ -1542,6 +1626,10 @@ public class NormalMonsters extends Monsters {
 
         public void addCard() {
             listOfCards.add(toString());
+        }
+
+        public void addMonsterCard() {
+            super.addMonsterCard();
         }
     }
 
@@ -1613,6 +1701,10 @@ public class NormalMonsters extends Monsters {
         public void addCard() {
             listOfCards.add(toString());
         }
+
+        public void addMonsterCard() {
+            super.addMonsterCard();
+        }
     }
 
     abstract class DarkBlade extends Monsters implements NormalMonster {
@@ -1682,6 +1774,10 @@ public class NormalMonsters extends Monsters {
 
         public void addCard() {
             listOfCards.add(toString());
+        }
+
+        public void addMonsterCard() {
+            super.addMonsterCard();
         }
     }
 
@@ -1754,6 +1850,10 @@ public class NormalMonsters extends Monsters {
         public void addCard() {
             listOfCards.add(toString());
         }
+
+        public void addMonsterCard() {
+            super.addMonsterCard();
+        }
     }
 
     abstract class SpiralSerpent extends Monsters implements NormalMonster {
@@ -1823,6 +1923,10 @@ public class NormalMonsters extends Monsters {
 
         public void addCard() {
             listOfCards.add(toString());
+        }
+
+        public void addMonsterCard() {
+            super.addMonsterCard();
         }
     }
 }

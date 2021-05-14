@@ -70,6 +70,10 @@ public class EffectiveMonsters extends Monsters {
         public void addCard() {
             listOfCards.add(toString());
         }
+
+        public void addMonsterCard() {
+            super.addMonsterCard();
+        }
     }
 
     abstract class YomiShip extends Monsters implements EffectiveMonster {
@@ -139,6 +143,10 @@ public class EffectiveMonsters extends Monsters {
 
         public void addCard() {
             listOfCards.add(toString());
+        }
+
+        public void addMonsterCard() {
+            super.addMonsterCard();
         }
     }
 
@@ -210,6 +218,10 @@ public class EffectiveMonsters extends Monsters {
         public void addCard() {
             listOfCards.add(toString());
         }
+
+        public void addMonsterCard() {
+            super.addMonsterCard();
+        }
     }
 
     abstract class ManEaterBug extends Monsters implements EffectiveMonster {
@@ -279,6 +291,10 @@ public class EffectiveMonsters extends Monsters {
 
         public void addCard() {
             listOfCards.add(toString());
+        }
+
+        public void addMonsterCard() {
+            super.addMonsterCard();
         }
     }
 
@@ -350,6 +366,10 @@ public class EffectiveMonsters extends Monsters {
         public void addCard() {
             listOfCards.add(toString());
         }
+
+        public void addMonsterCard() {
+            super.addMonsterCard();
+        }
     }
 
     abstract class Scanner extends Monsters implements EffectiveMonster {
@@ -419,6 +439,10 @@ public class EffectiveMonsters extends Monsters {
 
         public void addCard() {
             listOfCards.add(toString());
+        }
+
+        public void addMonsterCard() {
+            super.addMonsterCard();
         }
     }
 
@@ -490,6 +514,10 @@ public class EffectiveMonsters extends Monsters {
         public void addCard() {
             listOfCards.add(toString());
         }
+
+        public void addMonsterCard() {
+            super.addMonsterCard();
+        }
     }
 
     abstract class BeastKingBarbaros extends Monsters implements EffectiveMonster {
@@ -559,6 +587,10 @@ public class EffectiveMonsters extends Monsters {
 
         public void addCard() {
             listOfCards.add(toString());
+        }
+
+        public void addMonsterCard() {
+            super.addMonsterCard();
         }
     }
 
@@ -630,6 +662,10 @@ public class EffectiveMonsters extends Monsters {
         public void addCard() {
             listOfCards.add(toString());
         }
+
+        public void addMonsterCard() {
+            super.addMonsterCard();
+        }
     }
 
     abstract class TheCalculator extends Monsters implements EffectiveMonster {
@@ -699,6 +735,10 @@ public class EffectiveMonsters extends Monsters {
 
         public void addCard() {
             listOfCards.add(toString());
+        }
+
+        public void addMonsterCard() {
+            super.addMonsterCard();
         }
     }
 
@@ -770,6 +810,10 @@ public class EffectiveMonsters extends Monsters {
         public void addCard() {
             listOfCards.add(toString());
         }
+
+        public void addMonsterCard() {
+            super.addMonsterCard();
+        }
     }
 
     abstract class HeraldOfCreation extends Monsters implements EffectiveMonster {
@@ -839,6 +883,10 @@ public class EffectiveMonsters extends Monsters {
 
         public void addCard() {
             listOfCards.add(toString());
+        }
+
+        public void addMonsterCard() {
+            super.addMonsterCard();
         }
     }
 
@@ -910,6 +958,10 @@ public class EffectiveMonsters extends Monsters {
         public void addCard() {
             listOfCards.add(toString());
         }
+
+        public void addMonsterCard() {
+            super.addMonsterCard();
+        }
     }
 
     abstract class TerratigerTheEmpowredWorrier extends Monsters implements EffectiveMonster {
@@ -980,6 +1032,10 @@ public class EffectiveMonsters extends Monsters {
         public void addCard() {
             listOfCards.add(toString());
         }
+
+        public void addMonsterCard() {
+            super.addMonsterCard();
+        }
     }
 
     abstract class TheTricky extends Monsters implements EffectiveMonster {
@@ -1049,6 +1105,10 @@ public class EffectiveMonsters extends Monsters {
 
         public void addCard() {
             listOfCards.add(toString());
+        }
+
+        public void addMonsterCard() {
+            super.addMonsterCard();
         }
     }
 }

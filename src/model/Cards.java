@@ -2,7 +2,7 @@ package model;
 
 import java.util.ArrayList;
 
-class Cards {
+public class Cards {
 
     private String name;
     private String id;
@@ -26,12 +26,27 @@ class Cards {
         allCardsId.add(getId());
     }
 
+    public void addSpellCard() {
+        allSpellCardsName.add(getName());
+    }
+
+    public void addTrapCard() {
+        allTrapCardsName.add(getName());
+    }
+
+    public void addMonsterCard() {
+        allMonsterCardsName.add(getName());
+    }
+
 //    HashMap<String,String> allCardsNameAndDescription=new HashMap<>();
 
 
-    ArrayList<String> allCardsName = new ArrayList<>();
-    ArrayList<String> allCardsId = new ArrayList<>();
-    ArrayList<String> listOfCards;
+    public ArrayList<String> allCardsName = new ArrayList<>();
+    public ArrayList<String> allCardsId;
+    public ArrayList<String> allSpellCardsName;
+    public ArrayList<String> allTrapCardsName;
+    public ArrayList<String> allMonsterCardsName;
+    public ArrayList<String> listOfCards;
 
     public String getName() {
         return name;
