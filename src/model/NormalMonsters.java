@@ -2,37 +2,38 @@ package model;
 
 public class NormalMonsters extends Monsters {
 
-    abstract class BattleOx extends Monsters implements NormalMonster {
+    abstract public static class BattleOx extends Monsters implements NormalMonster {
+
         public void setName(String name) {
             super.setName("BattleOx");
         }
 
-        public String getName() {
-            return super.getName();
+        public static String getName() {
+            return "BattleOx";
         }
 
         public void setLevel() {
             this.level = 4;
         }
 
-        public int getLevel() {
-            return this.level;
+        public static int getLevel() {
+            return 4;
         }
 
         public void setAttackScore() {
             this.attackScore = 1700;
         }
 
-        public int getAttackScore() {
-            return this.attackScore;
+        public static int getAttackScore() {
+            return 1700;
         }
 
         public void setDefenceScore() {
             this.defenceScore = 1000;
         }
 
-        public int getDefenceScore() {
-            return this.defenceScore;
+        public static int getDefenceScore() {
+            return 1000;
         }
 
         public void setId(String id) {
@@ -47,16 +48,16 @@ public class NormalMonsters extends Monsters {
             this.type = "Beast-Warrior";
         }
 
-        public String getType() {
-            return this.type;
+        public static String getType() {
+            return "Beast-Warrior";
         }
 
         public void setDescription(String description) {
             super.setDescription("A monster with tremendous power, it destroys enemies with a swing of its axe.");
         }
 
-        public String getDescription() {
-            return super.getDescription();
+        public static String getDescription() {
+            return "A monster with tremendous power, it destroys enemies with a swing of its axe.";
         }
 
         public void addCardName() {
@@ -74,39 +75,48 @@ public class NormalMonsters extends Monsters {
         public void addMonsterCard() {
             super.addMonsterCard();
         }
+
+        public static void showCardInfo() {
+            System.out.println("Name: " + getName() + "\n" +
+                    "Level: " + getLevel() + "\n" +
+                    "Type: " + getType() + "\n" +
+                    "ATK: " + getAttackScore() + "\n" +
+                    "DEF: " + getDefenceScore() + "\n" +
+                    "Description: " + getDescription());
+        }
     }
 
-    abstract class AxeRaider extends Monsters implements NormalMonster {
+    abstract public static class AxeRaider extends Monsters implements NormalMonster {
         public void setName(String name) {
             super.setName("AxeRaider");
         }
 
-        public String getName() {
-            return super.getName();
+        public static String getName() {
+            return "AxeRaider";
         }
 
         public void setLevel() {
             this.level = 4;
         }
 
-        public int getLevel() {
-            return this.level;
+        public static int getLevel() {
+            return 4;
         }
 
         public void setAttackScore() {
             this.attackScore = 1700;
         }
 
-        public int getAttackScore() {
-            return this.attackScore;
+        public static int getAttackScore() {
+            return 1700;
         }
 
         public void setDefenceScore() {
             this.defenceScore = 1150;
         }
 
-        public int getDefenceScore() {
-            return this.defenceScore;
+        public static int getDefenceScore() {
+            return 1150;
         }
 
         public void setId(String id) {
@@ -121,16 +131,16 @@ public class NormalMonsters extends Monsters {
             this.type = "Warrior";
         }
 
-        public String getType() {
-            return this.type;
+        public static String getType() {
+            return "Warrior";
         }
 
         public void setDescription(String description) {
             super.setDescription("An axe-wielding monster of tremendous strength and agility.");
         }
 
-        public String getDescription() {
-            return super.getDescription();
+        public static String getDescription() {
+            return "An axe-wielding monster of tremendous strength and agility.";
         }
 
         public void addCardName() {
@@ -148,39 +158,48 @@ public class NormalMonsters extends Monsters {
         public void addMonsterCard() {
             super.addMonsterCard();
         }
+
+        public static void showCardInfo() {
+            System.out.println("Name: " + getName() + "\n" +
+                    "Level: " + getLevel() + "\n" +
+                    "Type: " + getType() + "\n" +
+                    "ATK: " + getAttackScore() + "\n" +
+                    "DEF: " + getDefenceScore() + "\n" +
+                    "Description: " + getDescription());
+        }
     }
 
-    abstract class HornImp extends Monsters implements NormalMonster {
+    abstract public static class HornImp extends Monsters implements NormalMonster {
         public void setName(String name) {
             super.setName("HornImp");
         }
 
-        public String getName() {
-            return super.getName();
+        public static String getName() {
+            return "HornImp";
         }
 
         public void setLevel() {
             this.level = 4;
         }
 
-        public int getLevel() {
-            return this.level;
+        public static int getLevel() {
+            return 4;
         }
 
         public void setAttackScore() {
             this.attackScore = 1300;
         }
 
-        public int getAttackScore() {
-            return this.attackScore;
+        public static int getAttackScore() {
+            return 1300;
         }
 
         public void setDefenceScore() {
             this.defenceScore = 1000;
         }
 
-        public int getDefenceScore() {
-            return this.defenceScore;
+        public static int getDefenceScore() {
+            return 1000;
         }
 
         public void setId(String id) {
@@ -195,16 +214,16 @@ public class NormalMonsters extends Monsters {
             this.type = "Fiend";
         }
 
-        public String getType() {
-            return this.type;
+        public static String getType() {
+            return "Fiend";
         }
 
         public void setDescription(String description) {
             super.setDescription("A small fiend that dwells in the dark, its single horn makes it a formidable opponent.");
         }
 
-        public String getDescription() {
-            return super.getDescription();
+        public static String getDescription() {
+            return "A small fiend that dwells in the dark, its single horn makes it a formidable opponent.";
         }
 
         public void addCardName() {
@@ -222,39 +241,48 @@ public class NormalMonsters extends Monsters {
         public void addMonsterCard() {
             super.addMonsterCard();
         }
+
+        public static void showCardInfo() {
+            System.out.println("Name: " + getName() + "\n" +
+                    "Level: " + getLevel() + "\n" +
+                    "Type: " + getType() + "\n" +
+                    "ATK: " + getAttackScore() + "\n" +
+                    "DEF: " + getDefenceScore() + "\n" +
+                    "Description: " + getDescription());
+        }
     }
 
-    abstract class SilverFang extends Monsters implements NormalMonster {
+    abstract public static class SilverFang extends Monsters implements NormalMonster {
         public void setName(String name) {
             super.setName("SilverFang");
         }
 
-        public String getName() {
-            return super.getName();
+        public static String getName() {
+            return "SilverFang";
         }
 
         public void setLevel() {
             this.level = 3;
         }
 
-        public int getLevel() {
-            return this.level;
+        public static int getLevel() {
+            return 3;
         }
 
         public void setAttackScore() {
             this.attackScore = 1200;
         }
 
-        public int getAttackScore() {
-            return this.attackScore;
+        public static int getAttackScore() {
+            return 1200;
         }
 
         public void setDefenceScore() {
             this.defenceScore = 800;
         }
 
-        public int getDefenceScore() {
-            return this.defenceScore;
+        public static int getDefenceScore() {
+            return 800;
         }
 
         public void setId(String id) {
@@ -269,16 +297,16 @@ public class NormalMonsters extends Monsters {
             this.type = "Beast";
         }
 
-        public String getType() {
-            return this.type;
+        public static String getType() {
+            return "Beast";
         }
 
         public void setDescription(String description) {
             super.setDescription("A snow wolf that's beautiful to the eye, but absolutely vicious in battle.");
         }
 
-        public String getDescription() {
-            return super.getDescription();
+        public static String getDescription() {
+            return "A snow wolf that's beautiful to the eye, but absolutely vicious in battle.";
         }
 
         public void addCardName() {
@@ -296,39 +324,48 @@ public class NormalMonsters extends Monsters {
         public void addMonsterCard() {
             super.addMonsterCard();
         }
+
+        public static void showCardInfo() {
+            System.out.println("Name: " + getName() + "\n" +
+                    "Level: " + getLevel() + "\n" +
+                    "Type: " + getType() + "\n" +
+                    "ATK: " + getAttackScore() + "\n" +
+                    "DEF: " + getDefenceScore() + "\n" +
+                    "Description: " + getDescription());
+        }
     }
 
-    abstract class Fireyarou extends Monsters implements NormalMonster {
+    abstract public static class Fireyarou extends Monsters implements NormalMonster {
         public void setName(String name) {
             super.setName("Fireyarou");
         }
 
-        public String getName() {
-            return super.getName();
+        public static String getName() {
+            return "Fireyarou";
         }
 
         public void setLevel() {
             this.level = 4;
         }
 
-        public int getLevel() {
-            return this.level;
+        public static int getLevel() {
+            return 4;
         }
 
         public void setAttackScore() {
             this.attackScore = 1300;
         }
 
-        public int getAttackScore() {
-            return this.attackScore;
+        public static int getAttackScore() {
+            return 1300;
         }
 
         public void setDefenceScore() {
             this.defenceScore = 1000;
         }
 
-        public int getDefenceScore() {
-            return this.defenceScore;
+        public static int getDefenceScore() {
+            return 1000;
         }
 
         public void setId(String id) {
@@ -343,16 +380,16 @@ public class NormalMonsters extends Monsters {
             this.type = "Pyro";
         }
 
-        public String getType() {
-            return this.type;
+        public static String getType() {
+            return "Pyro";
         }
 
         public void setDescription(String description) {
             super.setDescription("A malevolent creature wrapped in flames that attacks enemies with intense fire.");
         }
 
-        public String getDescription() {
-            return super.getDescription();
+        public static String getDescription() {
+            return "A malevolent creature wrapped in flames that attacks enemies with intense fire.";
         }
 
         public void addCardName() {
@@ -370,39 +407,48 @@ public class NormalMonsters extends Monsters {
         public void addMonsterCard() {
             super.addMonsterCard();
         }
+
+        public static void showCardInfo() {
+            System.out.println("Name: " + getName() + "\n" +
+                    "Level: " + getLevel() + "\n" +
+                    "Type: " + getType() + "\n" +
+                    "ATK: " + getAttackScore() + "\n" +
+                    "DEF: " + getDefenceScore() + "\n" +
+                    "Description: " + getDescription());
+        }
     }
 
-    abstract class CurtainOfDarkOnes extends Monsters implements NormalMonster {
+    abstract public static class CurtainOfDarkOnes extends Monsters implements NormalMonster {
         public void setName(String name) {
             super.setName("CurtainOfDarkOnes");
         }
 
-        public String getName() {
-            return super.getName();
+        public static String getName() {
+            return "CurtainOfDarkOnes";
         }
 
         public void setLevel() {
             this.level = 2;
         }
 
-        public int getLevel() {
-            return this.level;
+        public static int getLevel() {
+            return 2;
         }
 
         public void setAttackScore() {
             this.attackScore = 600;
         }
 
-        public int getAttackScore() {
-            return this.attackScore;
+        public static int getAttackScore() {
+            return 600;
         }
 
         public void setDefenceScore() {
             this.defenceScore = 500;
         }
 
-        public int getDefenceScore() {
-            return this.defenceScore;
+        public static int getDefenceScore() {
+            return 500;
         }
 
         public void setId(String id) {
@@ -417,16 +463,16 @@ public class NormalMonsters extends Monsters {
             this.type = "Spellcaster";
         }
 
-        public String getType() {
-            return this.type;
+        public static String getType() {
+            return "Spellcaster";
         }
 
         public void setDescription(String description) {
             super.setDescription("A curtain that a spellcaster made, it is said to raise a dark power.");
         }
 
-        public String getDescription() {
-            return super.getDescription();
+        public static String getDescription() {
+            return "A curtain that a spellcaster made, it is said to raise a dark power.";
         }
 
         public void addCardName() {
@@ -444,39 +490,48 @@ public class NormalMonsters extends Monsters {
         public void addMonsterCard() {
             super.addMonsterCard();
         }
+
+        public static void showCardInfo() {
+            System.out.println("Name: " + getName() + "\n" +
+                    "Level: " + getLevel() + "\n" +
+                    "Type: " + getType() + "\n" +
+                    "ATK: " + getAttackScore() + "\n" +
+                    "DEF: " + getDefenceScore() + "\n" +
+                    "Description: " + getDescription());
+        }
     }
 
-    abstract class FeralImp extends Monsters implements NormalMonster {
+    abstract public static class FeralImp extends Monsters implements NormalMonster {
         public void setName(String name) {
             super.setName("FeralImp");
         }
 
-        public String getName() {
-            return super.getName();
+        public static String getName() {
+            return "FeralImp";
         }
 
         public void setLevel() {
             this.level = 4;
         }
 
-        public int getLevel() {
-            return this.level;
+        public static int getLevel() {
+            return 4;
         }
 
         public void setAttackScore() {
             this.attackScore = 1300;
         }
 
-        public int getAttackScore() {
-            return this.attackScore;
+        public static int getAttackScore() {
+            return 1300;
         }
 
         public void setDefenceScore() {
             this.defenceScore = 1400;
         }
 
-        public int getDefenceScore() {
-            return this.defenceScore;
+        public static int getDefenceScore() {
+            return 1400;
         }
 
         public void setId(String id) {
@@ -491,16 +546,16 @@ public class NormalMonsters extends Monsters {
             this.type = "Fiend";
         }
 
-        public String getType() {
-            return this.type;
+        public static String getType() {
+            return "Fiend";
         }
 
         public void setDescription(String description) {
             super.setDescription("A playful little fiend that lurks in the dark, waiting to attack an unwary enemy.");
         }
 
-        public String getDescription() {
-            return super.getDescription();
+        public static String getDescription() {
+            return "A playful little fiend that lurks in the dark, waiting to attack an unwary enemy.";
         }
 
         public void addCardName() {
@@ -518,39 +573,48 @@ public class NormalMonsters extends Monsters {
         public void addMonsterCard() {
             super.addMonsterCard();
         }
+
+        public static void showCardInfo() {
+            System.out.println("Name: " + getName() + "\n" +
+                    "Level: " + getLevel() + "\n" +
+                    "Type: " + getType() + "\n" +
+                    "ATK: " + getAttackScore() + "\n" +
+                    "DEF: " + getDefenceScore() + "\n" +
+                    "Description: " + getDescription());
+        }
     }
 
-    abstract class DarkMagician extends Monsters implements NormalMonster {
+    abstract public static class DarkMagician extends Monsters implements NormalMonster {
         public void setName(String name) {
             super.setName("DarkMagician");
         }
 
-        public String getName() {
-            return super.getName();
+        public static String getName() {
+            return "DarkMagician";
         }
 
         public void setLevel() {
             this.level = 7;
         }
 
-        public int getLevel() {
-            return this.level;
+        public static int getLevel() {
+            return 7;
         }
 
         public void setAttackScore() {
             this.attackScore = 2500;
         }
 
-        public int getAttackScore() {
-            return this.attackScore;
+        public static int getAttackScore() {
+            return 2500;
         }
 
         public void setDefenceScore() {
             this.defenceScore = 2100;
         }
 
-        public int getDefenceScore() {
-            return this.defenceScore;
+        public static int getDefenceScore() {
+            return 2100;
         }
 
         public void setId(String id) {
@@ -565,16 +629,16 @@ public class NormalMonsters extends Monsters {
             this.type = "Spellcaster";
         }
 
-        public String getType() {
-            return this.type;
+        public static String getType() {
+            return "Spellcaster";
         }
 
         public void setDescription(String description) {
             super.setDescription("The ultimate wizard in terms of attack and defense.");
         }
 
-        public String getDescription() {
-            return super.getDescription();
+        public static String getDescription() {
+            return "The ultimate wizard in terms of attack and defense.";
         }
 
         public void addCardName() {
@@ -592,39 +656,48 @@ public class NormalMonsters extends Monsters {
         public void addMonsterCard() {
             super.addMonsterCard();
         }
+
+        public static void showCardInfo() {
+            System.out.println("Name: " + getName() + "\n" +
+                    "Level: " + getLevel() + "\n" +
+                    "Type: " + getType() + "\n" +
+                    "ATK: " + getAttackScore() + "\n" +
+                    "DEF: " + getDefenceScore() + "\n" +
+                    "Description: " + getDescription());
+        }
     }
 
-    abstract class Wattkid extends Monsters implements NormalMonster {
+    abstract public static class Wattkid extends Monsters implements NormalMonster {
         public void setName(String name) {
             super.setName("Wattkid");
         }
 
-        public String getName() {
-            return super.getName();
+        public static String getName() {
+            return "Wattkid";
         }
 
         public void setLevel() {
             this.level = 3;
         }
 
-        public int getLevel() {
-            return this.level;
+        public static int getLevel() {
+            return 3;
         }
 
         public void setAttackScore() {
             this.attackScore = 1000;
         }
 
-        public int getAttackScore() {
-            return this.attackScore;
+        public static int getAttackScore() {
+            return 1000;
         }
 
         public void setDefenceScore() {
             this.defenceScore = 500;
         }
 
-        public int getDefenceScore() {
-            return this.defenceScore;
+        public static int getDefenceScore() {
+            return 500;
         }
 
         public void setId(String id) {
@@ -639,8 +712,8 @@ public class NormalMonsters extends Monsters {
             this.type = "Thunder";
         }
 
-        public String getType() {
-            return this.type;
+        public static String getType() {
+            return "Thunder";
         }
 
         public void setDescription(String description) {
@@ -650,8 +723,11 @@ public class NormalMonsters extends Monsters {
                     "Card Name updated from \"Oscillo Hero #2\" on November 19, 2010.");
         }
 
-        public String getDescription() {
-            return super.getDescription();
+        public static String getDescription() {
+            return "A creature that electrocutes opponents with bolts of lightning.\n" +
+                    "\n" +
+                    "Note\n" +
+                    "Card Name updated from \"Oscillo Hero #2\" on November 19, 2010.";
         }
 
         public void addCardName() {
@@ -669,39 +745,48 @@ public class NormalMonsters extends Monsters {
         public void addMonsterCard() {
             super.addMonsterCard();
         }
+
+        public static void showCardInfo() {
+            System.out.println("Name: " + getName() + "\n" +
+                    "Level: " + getLevel() + "\n" +
+                    "Type: " + getType() + "\n" +
+                    "ATK: " + getAttackScore() + "\n" +
+                    "DEF: " + getDefenceScore() + "\n" +
+                    "Description: " + getDescription());
+        }
     }
 
-    abstract class BabyDragon extends Monsters implements NormalMonster {
+    abstract public static class BabyDragon extends Monsters implements NormalMonster {
         public void setName(String name) {
             super.setName("BabyDragon");
         }
 
-        public String getName() {
-            return super.getName();
+        public static String getName() {
+            return "BabyDragon";
         }
 
         public void setLevel() {
             this.level = 3;
         }
 
-        public int getLevel() {
-            return this.level;
+        public static int getLevel() {
+            return 3;
         }
 
         public void setAttackScore() {
             this.attackScore = 1200;
         }
 
-        public int getAttackScore() {
-            return this.attackScore;
+        public static int getAttackScore() {
+            return 1200;
         }
 
         public void setDefenceScore() {
             this.defenceScore = 700;
         }
 
-        public int getDefenceScore() {
-            return this.defenceScore;
+        public static int getDefenceScore() {
+            return 700;
         }
 
         public void setId(String id) {
@@ -716,16 +801,16 @@ public class NormalMonsters extends Monsters {
             this.type = "Dragon";
         }
 
-        public String getType() {
-            return this.type;
+        public static String getType() {
+            return "Dragon";
         }
 
         public void setDescription(String description) {
             super.setDescription("Much more than just a child, this dragon is gifted with untapped power.");
         }
 
-        public String getDescription() {
-            return super.getDescription();
+        public static String getDescription() {
+            return "Much more than just a child, this dragon is gifted with untapped power.";
         }
 
         public void addCardName() {
@@ -743,39 +828,48 @@ public class NormalMonsters extends Monsters {
         public void addMonsterCard() {
             super.addMonsterCard();
         }
+
+        public static void showCardInfo() {
+            System.out.println("Name: " + getName() + "\n" +
+                    "Level: " + getLevel() + "\n" +
+                    "Type: " + getType() + "\n" +
+                    "ATK: " + getAttackScore() + "\n" +
+                    "DEF: " + getDefenceScore() + "\n" +
+                    "Description: " + getDescription());
+        }
     }
 
-    abstract class HeroOfTheEast extends Monsters implements NormalMonster {
+    abstract public static class HeroOfTheEast extends Monsters implements NormalMonster {
         public void setName(String name) {
             super.setName("HeroOfTheEast");
         }
 
-        public String getName() {
-            return super.getName();
+        public static String getName() {
+            return "HeroOfTheEast";
         }
 
         public void setLevel() {
             this.level = 3;
         }
 
-        public int getLevel() {
-            return this.level;
+        public static int getLevel() {
+            return 3;
         }
 
         public void setAttackScore() {
             this.attackScore = 1100;
         }
 
-        public int getAttackScore() {
-            return this.attackScore;
+        public static int getAttackScore() {
+            return 1100;
         }
 
         public void setDefenceScore() {
             this.defenceScore = 1000;
         }
 
-        public int getDefenceScore() {
-            return this.defenceScore;
+        public static int getDefenceScore() {
+            return 1000;
         }
 
         public void setId(String id) {
@@ -790,16 +884,16 @@ public class NormalMonsters extends Monsters {
             this.type = "Warrior";
         }
 
-        public String getType() {
-            return this.type;
+        public static String getType() {
+            return "Warrior";
         }
 
         public void setDescription(String description) {
             super.setDescription("Feel da strength ah dis sword-swingin' samurai from da Far East.");
         }
 
-        public String getDescription() {
-            return super.getDescription();
+        public static String getDescription() {
+            return "Feel da strength ah dis sword-swingin' samurai from da Far East.";
         }
 
         public void addCardName() {
@@ -817,39 +911,48 @@ public class NormalMonsters extends Monsters {
         public void addMonsterCard() {
             super.addMonsterCard();
         }
+
+        public static void showCardInfo() {
+            System.out.println("Name: " + getName() + "\n" +
+                    "Level: " + getLevel() + "\n" +
+                    "Type: " + getType() + "\n" +
+                    "ATK: " + getAttackScore() + "\n" +
+                    "DEF: " + getDefenceScore() + "\n" +
+                    "Description: " + getDescription());
+        }
     }
 
-    abstract class BattleWarrior extends Monsters implements NormalMonster {
+    abstract public static class BattleWarrior extends Monsters implements NormalMonster {
         public void setName(String name) {
             super.setName("BattleWarrior");
         }
 
-        public String getName() {
-            return super.getName();
+        public static String getName() {
+            return "BattleWarrior";
         }
 
         public void setLevel() {
             this.level = 3;
         }
 
-        public int getLevel() {
-            return this.level;
+        public static int getLevel() {
+            return 3;
         }
 
         public void setAttackScore() {
             this.attackScore = 700;
         }
 
-        public int getAttackScore() {
-            return this.attackScore;
+        public static int getAttackScore() {
+            return 700;
         }
 
         public void setDefenceScore() {
             this.defenceScore = 1000;
         }
 
-        public int getDefenceScore() {
-            return this.defenceScore;
+        public static int getDefenceScore() {
+            return 1000;
         }
 
         public void setId(String id) {
@@ -864,16 +967,16 @@ public class NormalMonsters extends Monsters {
             this.type = "Warrior";
         }
 
-        public String getType() {
-            return this.type;
+        public static String getType() {
+            return "Warrior";
         }
 
         public void setDescription(String description) {
             super.setDescription("A warrior that fights with his bare hands!!!");
         }
 
-        public String getDescription() {
-            return super.getDescription();
+        public static String getDescription() {
+            return "A warrior that fights with his bare hands!!!";
         }
 
         public void addCardName() {
@@ -891,39 +994,48 @@ public class NormalMonsters extends Monsters {
         public void addMonsterCard() {
             super.addMonsterCard();
         }
+
+        public static void showCardInfo() {
+            System.out.println("Name: " + getName() + "\n" +
+                    "Level: " + getLevel() + "\n" +
+                    "Type: " + getType() + "\n" +
+                    "ATK: " + getAttackScore() + "\n" +
+                    "DEF: " + getDefenceScore() + "\n" +
+                    "Description: " + getDescription());
+        }
     }
 
-    abstract class CrawlingDragon extends Monsters implements NormalMonster {
+    abstract public static class CrawlingDragon extends Monsters implements NormalMonster {
         public void setName(String name) {
             super.setName("CrawlingDragon");
         }
 
-        public String getName() {
-            return super.getName();
+        public static String getName() {
+            return "CrawlingDragon";
         }
 
         public void setLevel() {
             this.level = 5;
         }
 
-        public int getLevel() {
-            return this.level;
+        public static int getLevel() {
+            return 5;
         }
 
         public void setAttackScore() {
             this.attackScore = 1600;
         }
 
-        public int getAttackScore() {
-            return this.attackScore;
+        public static int getAttackScore() {
+            return 1600;
         }
 
         public void setDefenceScore() {
             this.defenceScore = 1400;
         }
 
-        public int getDefenceScore() {
-            return this.defenceScore;
+        public static int getDefenceScore() {
+            return 1400;
         }
 
         public void setId(String id) {
@@ -938,16 +1050,16 @@ public class NormalMonsters extends Monsters {
             this.type = "Dragon";
         }
 
-        public String getType() {
-            return this.type;
+        public static String getType() {
+            return "Dragon";
         }
 
         public void setDescription(String description) {
             super.setDescription("This weakened dragon can no longer fly, but is still a deadly force to be reckoned with.");
         }
 
-        public String getDescription() {
-            return super.getDescription();
+        public static String getDescription() {
+            return "This weakened dragon can no longer fly, but is still a deadly force to be reckoned with.";
         }
 
         public void addCardName() {
@@ -965,39 +1077,48 @@ public class NormalMonsters extends Monsters {
         public void addMonsterCard() {
             super.addMonsterCard();
         }
+
+        public static void showCardInfo() {
+            System.out.println("Name: " + getName() + "\n" +
+                    "Level: " + getLevel() + "\n" +
+                    "Type: " + getType() + "\n" +
+                    "ATK: " + getAttackScore() + "\n" +
+                    "DEF: " + getDefenceScore() + "\n" +
+                    "Description: " + getDescription());
+        }
     }
 
-    abstract class FlameManipulator extends Monsters implements NormalMonster {
+    abstract public static class FlameManipulator extends Monsters implements NormalMonster {
         public void setName(String name) {
             super.setName("FlameManipulator");
         }
 
-        public String getName() {
-            return super.getName();
+        public static String getName() {
+            return "FlameManipulator";
         }
 
         public void setLevel() {
             this.level = 3;
         }
 
-        public int getLevel() {
-            return this.level;
+        public static int getLevel() {
+            return 3;
         }
 
         public void setAttackScore() {
             this.attackScore = 900;
         }
 
-        public int getAttackScore() {
-            return this.attackScore;
+        public static int getAttackScore() {
+            return 900;
         }
 
         public void setDefenceScore() {
             this.defenceScore = 100;
         }
 
-        public int getDefenceScore() {
-            return this.defenceScore;
+        public static int getDefenceScore() {
+            return 100;
         }
 
         public void setId(String id) {
@@ -1012,16 +1133,16 @@ public class NormalMonsters extends Monsters {
             this.type = "Spellcaster";
         }
 
-        public String getType() {
-            return this.type;
+        public static String getType() {
+            return "Spellcaster";
         }
 
         public void setDescription(String description) {
             super.setDescription("This Spellcaster attacks enemies with fire-related spells such as \"Sea of Flames\" and \"Wall of Fire\".");
         }
 
-        public String getDescription() {
-            return super.getDescription();
+        public static String getDescription() {
+            return "This Spellcaster attacks enemies with fire-related spells such as \"Sea of Flames\" and \"Wall of Fire\".";
         }
 
         public void addCardName() {
@@ -1039,39 +1160,48 @@ public class NormalMonsters extends Monsters {
         public void addMonsterCard() {
             super.addMonsterCard();
         }
+
+        public static void showCardInfo() {
+            System.out.println("Name: " + getName() + "\n" +
+                    "Level: " + getLevel() + "\n" +
+                    "Type: " + getType() + "\n" +
+                    "ATK: " + getAttackScore() + "\n" +
+                    "DEF: " + getDefenceScore() + "\n" +
+                    "Description: " + getDescription());
+        }
     }
 
-    abstract class BlueEyesWhiteDragon extends Monsters implements NormalMonster {
+    abstract public static class BlueEyesWhiteDragon extends Monsters implements NormalMonster {
         public void setName(String name) {
             super.setName("BlueEyesWhiteDragon");
         }
 
-        public String getName() {
-            return super.getName();
+        public static String getName() {
+            return "BlueEyesWhiteDragon";
         }
 
         public void setLevel() {
             this.level = 8;
         }
 
-        public int getLevel() {
-            return this.level;
+        public static int getLevel() {
+            return 8;
         }
 
         public void setAttackScore() {
             this.attackScore = 3000;
         }
 
-        public int getAttackScore() {
-            return this.attackScore;
+        public static int getAttackScore() {
+            return 3000;
         }
 
         public void setDefenceScore() {
             this.defenceScore = 2500;
         }
 
-        public int getDefenceScore() {
-            return this.defenceScore;
+        public static int getDefenceScore() {
+            return 2500;
         }
 
         public void setId(String id) {
@@ -1086,16 +1216,16 @@ public class NormalMonsters extends Monsters {
             this.type = "Dragon";
         }
 
-        public String getType() {
-            return this.type;
+        public static String getType() {
+            return "Dragon";
         }
 
         public void setDescription(String description) {
-            super.setDescription("This legendary dragon is a powerful engine of destruction. Virtually invincible, very few have faced this awesome creature and lived to tell the tale.\n");
+            super.setDescription("This legendary dragon is a powerful engine of destruction. Virtually invincible, very few have faced this awesome creature and lived to tell the tale.");
         }
 
-        public String getDescription() {
-            return super.getDescription();
+        public static String getDescription() {
+            return "This legendary dragon is a powerful engine of destruction. Virtually invincible, very few have faced this awesome creature and lived to tell the tale.";
         }
 
         public void addCardName() {
@@ -1113,39 +1243,48 @@ public class NormalMonsters extends Monsters {
         public void addMonsterCard() {
             super.addMonsterCard();
         }
+
+        public static void showCardInfo() {
+            System.out.println("Name: " + getName() + "\n" +
+                    "Level: " + getLevel() + "\n" +
+                    "Type: " + getType() + "\n" +
+                    "ATK: " + getAttackScore() + "\n" +
+                    "DEF: " + getDefenceScore() + "\n" +
+                    "Description: " + getDescription());
+        }
     }
 
-    abstract class CrabTurtle extends Monsters implements NormalMonster {
+    abstract public static class CrabTurtle extends Monsters implements NormalMonster {
         public void setName(String name) {
             super.setName("CrabTurtle");
         }
 
-        public String getName() {
-            return super.getName();
+        public static String getName() {
+            return "CrabTurtle";
         }
 
         public void setLevel() {
             this.level = 7;
         }
 
-        public int getLevel() {
-            return this.level;
+        public static int getLevel() {
+            return 7;
         }
 
         public void setAttackScore() {
             this.attackScore = 2550;
         }
 
-        public int getAttackScore() {
-            return this.attackScore;
+        public static int getAttackScore() {
+            return 2550;
         }
 
         public void setDefenceScore() {
             this.defenceScore = 2500;
         }
 
-        public int getDefenceScore() {
-            return this.defenceScore;
+        public static int getDefenceScore() {
+            return 2500;
         }
 
         public void setId(String id) {
@@ -1160,16 +1299,16 @@ public class NormalMonsters extends Monsters {
             this.type = "Aqua";
         }
 
-        public String getType() {
-            return this.type;
+        public static String getType() {
+            return "Aqua";
         }
 
         public void setDescription(String description) {
             super.setDescription("This monster can only be Ritual Summoned with the Ritual Spell Card, \"Turtle Oath\". You must also offer monsters whose total Level Stars equal 8 or more as a Tribute from the field or your hand.");
         }
 
-        public String getDescription() {
-            return super.getDescription();
+        public static String getDescription() {
+            return "This monster can only be Ritual Summoned with the Ritual Spell Card, \"Turtle Oath\". You must also offer monsters whose total Level Stars equal 8 or more as a Tribute from the field or your hand.";
         }
 
         public void addCardName() {
@@ -1187,39 +1326,48 @@ public class NormalMonsters extends Monsters {
         public void addMonsterCard() {
             super.addMonsterCard();
         }
+
+        public static void showCardInfo() {
+            System.out.println("Name: " + getName() + "\n" +
+                    "Level: " + getLevel() + "\n" +
+                    "Type: " + getType() + "\n" +
+                    "ATK: " + getAttackScore() + "\n" +
+                    "DEF: " + getDefenceScore() + "\n" +
+                    "Description: " + getDescription());
+        }
     }
 
-    abstract class SkullGuardian extends Monsters implements NormalMonster {
+    abstract public static class SkullGuardian extends Monsters implements NormalMonster {
         public void setName(String name) {
             super.setName("SkullGuardian");
         }
 
-        public String getName() {
-            return super.getName();
+        public static String getName() {
+            return "SkullGuardian";
         }
 
         public void setLevel() {
             this.level = 7;
         }
 
-        public int getLevel() {
-            return this.level;
+        public static int getLevel() {
+            return 7;
         }
 
         public void setAttackScore() {
             this.attackScore = 2050;
         }
 
-        public int getAttackScore() {
-            return this.attackScore;
+        public static int getAttackScore() {
+            return 2050;
         }
 
         public void setDefenceScore() {
             this.defenceScore = 2500;
         }
 
-        public int getDefenceScore() {
-            return this.defenceScore;
+        public static int getDefenceScore() {
+            return 2500;
         }
 
         public void setId(String id) {
@@ -1234,16 +1382,16 @@ public class NormalMonsters extends Monsters {
             this.type = "Warrior";
         }
 
-        public String getType() {
-            return this.type;
+        public static String getType() {
+            return "Warrior";
         }
 
         public void setDescription(String description) {
             super.setDescription("This monster can only be Ritual Summoned with the Ritual Spell Card, \"Novox's Prayer\". You must also offer monsters whose total Level Stars equal 7 or more as a Tribute from the field or your hand.");
         }
 
-        public String getDescription() {
-            return super.getDescription();
+        public static String getDescription() {
+            return "This monster can only be Ritual Summoned with the Ritual Spell Card, \"Novox's Prayer\". You must also offer monsters whose total Level Stars equal 7 or more as a Tribute from the field or your hand.";
         }
 
         public void addCardName() {
@@ -1261,39 +1409,48 @@ public class NormalMonsters extends Monsters {
         public void addMonsterCard() {
             super.addMonsterCard();
         }
+
+        public static void showCardInfo() {
+            System.out.println("Name: " + getName() + "\n" +
+                    "Level: " + getLevel() + "\n" +
+                    "Type: " + getType() + "\n" +
+                    "ATK: " + getAttackScore() + "\n" +
+                    "DEF: " + getDefenceScore() + "\n" +
+                    "Description: " + getDescription());
+        }
     }
 
-    abstract class SlutMachine extends Monsters implements NormalMonster {
+    abstract public static class SlutMachine extends Monsters implements NormalMonster {
         public void setName(String name) {
             super.setName("SlutMachine");
         }
 
-        public String getName() {
-            return super.getName();
+        public static String getName() {
+            return "SlutMachine";
         }
 
         public void setLevel() {
             this.level = 7;
         }
 
-        public int getLevel() {
-            return this.level;
+        public static int getLevel() {
+            return 7;
         }
 
         public void setAttackScore() {
             this.attackScore = 2000;
         }
 
-        public int getAttackScore() {
-            return this.attackScore;
+        public static int getAttackScore() {
+            return 2000;
         }
 
         public void setDefenceScore() {
             this.defenceScore = 2300;
         }
 
-        public int getDefenceScore() {
-            return this.defenceScore;
+        public static int getDefenceScore() {
+            return 2300;
         }
 
         public void setId(String id) {
@@ -1308,16 +1465,16 @@ public class NormalMonsters extends Monsters {
             this.type = "Machine";
         }
 
-        public String getType() {
-            return this.type;
+        public static String getType() {
+            return "Machine";
         }
 
         public void setDescription(String description) {
             super.setDescription("The machine's ability is said to vary according to its slot results.");
         }
 
-        public String getDescription() {
-            return super.getDescription();
+        public static String getDescription() {
+            return "The machine's ability is said to vary according to its slot results.";
         }
 
         public void addCardName() {
@@ -1335,39 +1492,48 @@ public class NormalMonsters extends Monsters {
         public void addMonsterCard() {
             super.addMonsterCard();
         }
+
+        public static void showCardInfo() {
+            System.out.println("Name: " + getName() + "\n" +
+                    "Level: " + getLevel() + "\n" +
+                    "Type: " + getType() + "\n" +
+                    "ATK: " + getAttackScore() + "\n" +
+                    "DEF: " + getDefenceScore() + "\n" +
+                    "Description: " + getDescription());
+        }
     }
 
-    abstract class Haniwa extends Monsters implements NormalMonster {
+    abstract public static class Haniwa extends Monsters implements NormalMonster {
         public void setName(String name) {
             super.setName("Haniwa");
         }
 
-        public String getName() {
-            return super.getName();
+        public static String getName() {
+            return "Haniwa";
         }
 
         public void setLevel() {
             this.level = 2;
         }
 
-        public int getLevel() {
-            return this.level;
+        public static int getLevel() {
+            return 2;
         }
 
         public void setAttackScore() {
             this.attackScore = 500;
         }
 
-        public int getAttackScore() {
-            return this.attackScore;
+        public static int getAttackScore() {
+            return 500;
         }
 
         public void setDefenceScore() {
             this.defenceScore = 500;
         }
 
-        public int getDefenceScore() {
-            return this.defenceScore;
+        public static int getDefenceScore() {
+            return 500;
         }
 
         public void setId(String id) {
@@ -1382,16 +1548,16 @@ public class NormalMonsters extends Monsters {
             this.type = "Rock";
         }
 
-        public String getType() {
-            return this.type;
+        public static String getType() {
+            return "Rock";
         }
 
         public void setDescription(String description) {
             super.setDescription("An earthen figure that protects the tomb of an ancient ruler.");
         }
 
-        public String getDescription() {
-            return super.getDescription();
+        public static String getDescription() {
+            return "An earthen figure that protects the tomb of an ancient ruler.";
         }
 
         public void addCardName() {
@@ -1409,39 +1575,48 @@ public class NormalMonsters extends Monsters {
         public void addMonsterCard() {
             super.addMonsterCard();
         }
+
+        public static void showCardInfo() {
+            System.out.println("Name: " + getName() + "\n" +
+                    "Level: " + getLevel() + "\n" +
+                    "Type: " + getType() + "\n" +
+                    "ATK: " + getAttackScore() + "\n" +
+                    "DEF: " + getDefenceScore() + "\n" +
+                    "Description: " + getDescription());
+        }
     }
 
-    abstract class Bitron extends Monsters implements NormalMonster {
+    abstract public static class Bitron extends Monsters implements NormalMonster {
         public void setName(String name) {
             super.setName("Bitron");
         }
 
-        public String getName() {
-            return super.getName();
+        public static String getName() {
+            return "Bitron";
         }
 
         public void setLevel() {
             this.level = 2;
         }
 
-        public int getLevel() {
-            return this.level;
+        public static int getLevel() {
+            return 2;
         }
 
         public void setAttackScore() {
             this.attackScore = 200;
         }
 
-        public int getAttackScore() {
-            return this.attackScore;
+        public static int getAttackScore() {
+            return 200;
         }
 
         public void setDefenceScore() {
             this.defenceScore = 2000;
         }
 
-        public int getDefenceScore() {
-            return this.defenceScore;
+        public static int getDefenceScore() {
+            return 2000;
         }
 
         public void setId(String id) {
@@ -1456,16 +1631,16 @@ public class NormalMonsters extends Monsters {
             this.type = "Cyberse";
         }
 
-        public String getType() {
-            return this.type;
+        public static String getType() {
+            return "Cyberse";
         }
 
         public void setDescription(String description) {
             super.setDescription("A new species found in electronic space. There's not much information on it.");
         }
 
-        public String getDescription() {
-            return super.getDescription();
+        public static String getDescription() {
+            return "A new species found in electronic space. There's not much information on it.";
         }
 
         public void addCardName() {
@@ -1483,39 +1658,48 @@ public class NormalMonsters extends Monsters {
         public void addMonsterCard() {
             super.addMonsterCard();
         }
+
+        public static void showCardInfo() {
+            System.out.println("Name: " + getName() + "\n" +
+                    "Level: " + getLevel() + "\n" +
+                    "Type: " + getType() + "\n" +
+                    "ATK: " + getAttackScore() + "\n" +
+                    "DEF: " + getDefenceScore() + "\n" +
+                    "Description: " + getDescription());
+        }
     }
 
-    abstract class Leotron extends Monsters implements NormalMonster {
+    abstract public static class Leotron extends Monsters implements NormalMonster {
         public void setName(String name) {
             super.setName("Leotron");
         }
 
-        public String getName() {
-            return super.getName();
+        public static String getName() {
+            return "Leotron";
         }
 
         public void setLevel() {
             this.level = 4;
         }
 
-        public int getLevel() {
-            return this.level;
+        public static int getLevel() {
+            return 4;
         }
 
         public void setAttackScore() {
             this.attackScore = 2000;
         }
 
-        public int getAttackScore() {
-            return this.attackScore;
+        public static int getAttackScore() {
+            return 2000;
         }
 
         public void setDefenceScore() {
             this.defenceScore = 0;
         }
 
-        public int getDefenceScore() {
-            return this.defenceScore;
+        public static int getDefenceScore() {
+            return 0;
         }
 
         public void setId(String id) {
@@ -1530,16 +1714,16 @@ public class NormalMonsters extends Monsters {
             this.type = "Cyberse";
         }
 
-        public String getType() {
-            return this.type;
+        public static String getType() {
+            return "Cyberse";
         }
 
         public void setDescription(String description) {
             super.setDescription("A territorial electronic monster that guards its own domain.");
         }
 
-        public String getDescription() {
-            return super.getDescription();
+        public static String getDescription() {
+            return "A territorial electronic monster that guards its own domain.";
         }
 
         public void addCardName() {
@@ -1557,39 +1741,48 @@ public class NormalMonsters extends Monsters {
         public void addMonsterCard() {
             super.addMonsterCard();
         }
+
+        public static void showCardInfo() {
+            System.out.println("Name: " + getName() + "\n" +
+                    "Level: " + getLevel() + "\n" +
+                    "Type: " + getType() + "\n" +
+                    "ATK: " + getAttackScore() + "\n" +
+                    "DEF: " + getDefenceScore() + "\n" +
+                    "Description: " + getDescription());
+        }
     }
 
-    abstract class AlexandriteDragon extends Monsters implements NormalMonster {
+    abstract public static class AlexandriteDragon extends Monsters implements NormalMonster {
         public void setName(String name) {
             super.setName("AlexandriteDragon");
         }
 
-        public String getName() {
-            return super.getName();
+        public static String getName() {
+            return "AlexandriteDragon";
         }
 
         public void setLevel() {
             this.level = 4;
         }
 
-        public int getLevel() {
-            return this.level;
+        public static int getLevel() {
+            return 4;
         }
 
         public void setAttackScore() {
             this.attackScore = 2000;
         }
 
-        public int getAttackScore() {
-            return this.attackScore;
+        public static int getAttackScore() {
+            return 2000;
         }
 
         public void setDefenceScore() {
             this.defenceScore = 100;
         }
 
-        public int getDefenceScore() {
-            return this.defenceScore;
+        public static int getDefenceScore() {
+            return 100;
         }
 
         public void setId(String id) {
@@ -1604,16 +1797,16 @@ public class NormalMonsters extends Monsters {
             this.type = "Dragon";
         }
 
-        public String getType() {
-            return this.type;
+        public static String getType() {
+            return "Dragon";
         }
 
         public void setDescription(String description) {
             super.setDescription("Many of the czars' lost jewels can be found in the scales of this priceless dragon. Its creator remains a mystery, along with how they acquired the imperial treasures. But whosoever finds this dragon has hit the jackpot... whether they know it or not.");
         }
 
-        public String getDescription() {
-            return super.getDescription();
+        public static String getDescription() {
+            return "Many of the czars' lost jewels can be found in the scales of this priceless dragon. Its creator remains a mystery, along with how they acquired the imperial treasures. But whosoever finds this dragon has hit the jackpot... whether they know it or not.";
         }
 
         public void addCardName() {
@@ -1631,39 +1824,48 @@ public class NormalMonsters extends Monsters {
         public void addMonsterCard() {
             super.addMonsterCard();
         }
+
+        public static void showCardInfo() {
+            System.out.println("Name: " + getName() + "\n" +
+                    "Level: " + getLevel() + "\n" +
+                    "Type: " + getType() + "\n" +
+                    "ATK: " + getAttackScore() + "\n" +
+                    "DEF: " + getDefenceScore() + "\n" +
+                    "Description: " + getDescription());
+        }
     }
 
-    abstract class WarriorDaiGrepher extends Monsters implements NormalMonster {
+    abstract public static class WarriorDaiGrepher extends Monsters implements NormalMonster {
         public void setName(String name) {
             super.setName("WarriorDaiGrepher");
         }
 
-        public String getName() {
-            return super.getName();
+        public static String getName() {
+            return "WarriorDaiGrepher";
         }
 
         public void setLevel() {
             this.level = 4;
         }
 
-        public int getLevel() {
-            return this.level;
+        public static int getLevel() {
+            return 4;
         }
 
         public void setAttackScore() {
             this.attackScore = 1700;
         }
 
-        public int getAttackScore() {
-            return this.attackScore;
+        public static int getAttackScore() {
+            return 1700;
         }
 
         public void setDefenceScore() {
             this.defenceScore = 1600;
         }
 
-        public int getDefenceScore() {
-            return this.defenceScore;
+        public static int getDefenceScore() {
+            return 1600;
         }
 
         public void setId(String id) {
@@ -1678,16 +1880,16 @@ public class NormalMonsters extends Monsters {
             this.type = "Warrior";
         }
 
-        public String getType() {
-            return this.type;
+        public static String getType() {
+            return "Warrior";
         }
 
         public void setDescription(String description) {
             super.setDescription("The warrior who can manipulate dragons. Nobody knows his mysterious past.");
         }
 
-        public String getDescription() {
-            return super.getDescription();
+        public static String getDescription() {
+            return "The warrior who can manipulate dragons. Nobody knows his mysterious past.";
         }
 
         public void addCardName() {
@@ -1705,39 +1907,48 @@ public class NormalMonsters extends Monsters {
         public void addMonsterCard() {
             super.addMonsterCard();
         }
+
+        public static void showCardInfo() {
+            System.out.println("Name: " + getName() + "\n" +
+                    "Level: " + getLevel() + "\n" +
+                    "Type: " + getType() + "\n" +
+                    "ATK: " + getAttackScore() + "\n" +
+                    "DEF: " + getDefenceScore() + "\n" +
+                    "Description: " + getDescription());
+        }
     }
 
-    abstract class DarkBlade extends Monsters implements NormalMonster {
+    abstract public static class DarkBlade extends Monsters implements NormalMonster {
         public void setName(String name) {
             super.setName("DarkBlade");
         }
 
-        public String getName() {
-            return super.getName();
+        public static String getName() {
+            return "DarkBlade";
         }
 
         public void setLevel() {
             this.level = 4;
         }
 
-        public int getLevel() {
-            return this.level;
+        public static int getLevel() {
+            return 4;
         }
 
         public void setAttackScore() {
             this.attackScore = 1800;
         }
 
-        public int getAttackScore() {
-            return this.attackScore;
+        public static int getAttackScore() {
+            return 1800;
         }
 
         public void setDefenceScore() {
             this.defenceScore = 1500;
         }
 
-        public int getDefenceScore() {
-            return this.defenceScore;
+        public static int getDefenceScore() {
+            return 1500;
         }
 
         public void setId(String id) {
@@ -1752,16 +1963,16 @@ public class NormalMonsters extends Monsters {
             this.type = "Warrior";
         }
 
-        public String getType() {
-            return this.type;
+        public static String getType() {
+            return "Warrior";
         }
 
         public void setDescription(String description) {
             super.setDescription("They say he is a dragon-manipulating warrior from the dark world. His attack is tremendous, using his great swords with vicious power.");
         }
 
-        public String getDescription() {
-            return super.getDescription();
+        public static String getDescription() {
+            return "They say he is a dragon-manipulating warrior from the dark world. His attack is tremendous, using his great swords with vicious power.";
         }
 
         public void addCardName() {
@@ -1779,39 +1990,48 @@ public class NormalMonsters extends Monsters {
         public void addMonsterCard() {
             super.addMonsterCard();
         }
+
+        public static void showCardInfo() {
+            System.out.println("Name: " + getName() + "\n" +
+                    "Level: " + getLevel() + "\n" +
+                    "Type: " + getType() + "\n" +
+                    "ATK: " + getAttackScore() + "\n" +
+                    "DEF: " + getDefenceScore() + "\n" +
+                    "Description: " + getDescription());
+        }
     }
 
-    abstract class Wattialdragon extends Monsters implements NormalMonster {
+    abstract public static class Wattialdragon extends Monsters implements NormalMonster {
         public void setName(String name) {
             super.setName("Wattialdragon");
         }
 
-        public String getName() {
-            return super.getName();
+        public static String getName() {
+            return "Wattialdragon";
         }
 
         public void setLevel() {
             this.level = 6;
         }
 
-        public int getLevel() {
-            return this.level;
+        public static int getLevel() {
+            return 6;
         }
 
         public void setAttackScore() {
             this.attackScore = 2500;
         }
 
-        public int getAttackScore() {
-            return this.attackScore;
+        public static int getAttackScore() {
+            return 2500;
         }
 
         public void setDefenceScore() {
             this.defenceScore = 1700;
         }
 
-        public int getDefenceScore() {
-            return this.defenceScore;
+        public static int getDefenceScore() {
+            return 1700;
         }
 
         public void setId(String id) {
@@ -1826,8 +2046,8 @@ public class NormalMonsters extends Monsters {
             this.type = "Dragon";
         }
 
-        public String getType() {
-            return this.type;
+        public static String getType() {
+            return "Dragon";
         }
 
         public void setDescription(String description) {
@@ -1835,8 +2055,9 @@ public class NormalMonsters extends Monsters {
                     "IMPORTANT: Capturing the \"Wattaildragon\" is forbidden by the Ancient Rules and is a Level 6 offense, the minimum sentence for which is imprisonment for no less than 2500 heliocycles.");
         }
 
-        public String getDescription() {
-            return super.getDescription();
+        public static String getDescription() {
+            return "Capable of indefinite flight. Attacks by wrapping its body with electricity and ramming into opponents.\n" +
+                    "IMPORTANT: Capturing the \"Wattaildragon\" is forbidden by the Ancient Rules and is a Level 6 offense, the minimum sentence for which is imprisonment for no less than 2500 heliocycles.";
         }
 
         public void addCardName() {
@@ -1854,39 +2075,48 @@ public class NormalMonsters extends Monsters {
         public void addMonsterCard() {
             super.addMonsterCard();
         }
+
+        public static void showCardInfo() {
+            System.out.println("Name: " + getName() + "\n" +
+                    "Level: " + getLevel() + "\n" +
+                    "Type: " + getType() + "\n" +
+                    "ATK: " + getAttackScore() + "\n" +
+                    "DEF: " + getDefenceScore() + "\n" +
+                    "Description: " + getDescription());
+        }
     }
 
-    abstract class SpiralSerpent extends Monsters implements NormalMonster {
+    abstract public static class SpiralSerpent extends Monsters implements NormalMonster {
         public void setName(String name) {
             super.setName("SpiralSerpent");
         }
 
-        public String getName() {
-            return super.getName();
+        public static String getName() {
+            return "SpiralSerpent";
         }
 
         public void setLevel() {
             this.level = 8;
         }
 
-        public int getLevel() {
-            return this.level;
+        public static int getLevel() {
+            return 8;
         }
 
         public void setAttackScore() {
             this.attackScore = 2900;
         }
 
-        public int getAttackScore() {
-            return this.attackScore;
+        public static int getAttackScore() {
+            return 2900;
         }
 
         public void setDefenceScore() {
             this.defenceScore = 2900;
         }
 
-        public int getDefenceScore() {
-            return this.defenceScore;
+        public static int getDefenceScore() {
+            return 2900;
         }
 
         public void setId(String id) {
@@ -1901,16 +2131,16 @@ public class NormalMonsters extends Monsters {
             this.type = "SeaSerpent";
         }
 
-        public String getType() {
-            return this.type;
+        public static String getType() {
+            return "SeaSerpent";
         }
 
         public void setDescription(String description) {
             super.setDescription("When huge whirlpools lay cities asunder, it is the hunger of this sea serpent at work. No one has ever escaped its dreaded Spiral Wave to accurately describe the terror they experienced.");
         }
 
-        public String getDescription() {
-            return super.getDescription();
+        public static String getDescription() {
+            return "When huge whirlpools lay cities asunder, it is the hunger of this sea serpent at work. No one has ever escaped its dreaded Spiral Wave to accurately describe the terror they experienced.";
         }
 
         public void addCardName() {
@@ -1927,6 +2157,15 @@ public class NormalMonsters extends Monsters {
 
         public void addMonsterCard() {
             super.addMonsterCard();
+        }
+
+        public static void showCardInfo() {
+            System.out.println("Name: " + getName() + "\n" +
+                    "Level: " + getLevel() + "\n" +
+                    "Type: " + getType() + "\n" +
+                    "ATK: " + getAttackScore() + "\n" +
+                    "DEF: " + getDefenceScore() + "\n" +
+                    "Description: " + getDescription());
         }
     }
 }
