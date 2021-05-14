@@ -5,4 +5,5 @@ public class Monsters extends Cards {
     protected int defenceScore;
     protected int level;
     protected String type;
+
 }
