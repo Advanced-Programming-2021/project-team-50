@@ -9,13 +9,14 @@ public interface EffectiveMonster {
 
     public void setType();
 
-    public int getAttackScore();
+    //public static int getAttackScore();
 
-    public int getDefenceScore();
+    //public static int getDefenceScore();
 
-    public int getLevel();
+    //public static int getLevel();
 
-    public String getType();
+    //public static String getType();
 
     public void effect();
+
 }

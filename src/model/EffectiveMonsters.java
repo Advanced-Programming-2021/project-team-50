@@ -2,7 +2,7 @@ package model;
 
 public class EffectiveMonsters extends Monsters {
 
-    abstract class CommandKnight extends Monsters implements EffectiveMonster {
+    abstract public static class CommandKnight extends Monsters implements EffectiveMonster {
         public void setName(String name) {
             super.setName("CommandKnight");
         }
@@ -31,32 +31,32 @@ public class EffectiveMonsters extends Monsters {
             super.setDescription("All Warrior monsters you control gain 400 ATK. If you control another monster, monsters your opponent controls cannot target this card for attacks.");
         }
 
-        public int getAttackScore() {
-            return this.attackScore;
+        public static int getAttackScore() {
+            return 1000;
         }
 
-        public int getDefenceScore() {
-            return this.defenceScore;
+        public static int getDefenceScore() {
+            return 1000;
         }
 
-        public int getLevel() {
-            return this.level;
+        public static int getLevel() {
+            return 4;
         }
 
         public String getId() {
             return super.getId();
         }
 
-        public String getName() {
-            return super.getName();
+        public static String getName() {
+            return "CommandKnight";
         }
 
-        public String getType() {
-            return this.type;
+        public static String getType() {
+            return "Warrior";
         }
 
-        public String getDescription() {
-            return super.getDescription();
+        public static String getDescription() {
+            return "All Warrior monsters you control gain 400 ATK. If you control another monster, monsters your opponent controls cannot target this card for attacks.";
         }
 
         public void addCardName() {
@@ -74,9 +74,18 @@ public class EffectiveMonsters extends Monsters {
         public void addMonsterCard() {
             super.addMonsterCard();
         }
+
+        public static void showCardInfo() {
+            System.out.println("Name: " + getName() + "\n" +
+                    "Level: " + getLevel() + "\n" +
+                    "Type: " + getType() + "\n" +
+                    "ATK: " + getAttackScore() + "\n" +
+                    "DEF: " + getDefenceScore() + "\n" +
+                    "Description: " + getDescription());
+        }
     }
 
-    abstract class YomiShip extends Monsters implements EffectiveMonster {
+    abstract public static class YomiShip extends Monsters implements EffectiveMonster {
         public void setName(String name) {
             super.setName("YomiShip");
         }
@@ -105,32 +114,32 @@ public class EffectiveMonsters extends Monsters {
             super.setDescription("If this card is destroyed by battle and sent to the GY: Destroy the monster that destroyed this card.");
         }
 
-        public String getName() {
-            return super.getName();
+        public static String getName() {
+            return "YomiShip";
         }
 
-        public String getType() {
-            return this.type;
+        public static String getType() {
+            return "Aqua";
         }
 
-        public String getDescription() {
-            return super.getDescription();
+        public static String getDescription() {
+            return "If this card is destroyed by battle and sent to the GY: Destroy the monster that destroyed this card.";
         }
 
         public String getId() {
             return super.getId();
         }
 
-        public int getLevel() {
-            return this.level;
+        public static int getLevel() {
+            return 3;
         }
 
-        public int getDefenceScore() {
-            return this.defenceScore;
+        public static int getDefenceScore() {
+            return 1400;
         }
 
-        public int getAttackScore() {
-            return this.attackScore;
+        public static int getAttackScore() {
+            return 800;
         }
 
         public void addCardName() {
@@ -148,9 +157,18 @@ public class EffectiveMonsters extends Monsters {
         public void addMonsterCard() {
             super.addMonsterCard();
         }
+
+        public static void showCardInfo() {
+            System.out.println("Name: " + getName() + "\n" +
+                    "Level: " + getLevel() + "\n" +
+                    "Type: " + getType() + "\n" +
+                    "ATK: " + getAttackScore() + "\n" +
+                    "DEF: " + getDefenceScore() + "\n" +
+                    "Description: " + getDescription());
+        }
     }
 
-    abstract class Suijin extends Monsters implements EffectiveMonster {
+    abstract public static class Suijin extends Monsters implements EffectiveMonster {
         public void setName(String name) {
             super.setName("Suijin");
         }
@@ -179,32 +197,32 @@ public class EffectiveMonsters extends Monsters {
             super.setDescription("During damage calculation in your opponent's turn, if this card is being attacked: You can target the attacking monster; make that target's ATK 0 during damage calculation only (this is a Quick Effect). This effect can only be used once while this card is face-up on the field.");
         }
 
-        public int getAttackScore() {
-            return this.attackScore;
+        public static int getAttackScore() {
+            return 2500;
         }
 
-        public int getDefenceScore() {
-            return this.defenceScore;
+        public static int getDefenceScore() {
+            return 2400;
         }
 
-        public int getLevel() {
-            return this.level;
+        public static int getLevel() {
+            return 7;
         }
 
         public String getId() {
             return super.getId();
         }
 
-        public String getDescription() {
-            return super.getDescription();
+        public static String getDescription() {
+            return "During damage calculation in your opponent's turn, if this card is being attacked: You can target the attacking monster; make that target's ATK 0 during damage calculation only (this is a Quick Effect). This effect can only be used once while this card is face-up on the field.";
         }
 
-        public String getType() {
-            return this.type;
+        public static String getType() {
+            return "Aqua";
         }
 
-        public String getName() {
-            return super.getName();
+        public static String getName() {
+            return "Suijin";
         }
 
         public void addCardName() {
@@ -222,9 +240,18 @@ public class EffectiveMonsters extends Monsters {
         public void addMonsterCard() {
             super.addMonsterCard();
         }
+
+        public static void showCardInfo() {
+            System.out.println("Name: " + getName() + "\n" +
+                    "Level: " + getLevel() + "\n" +
+                    "Type: " + getType() + "\n" +
+                    "ATK: " + getAttackScore() + "\n" +
+                    "DEF: " + getDefenceScore() + "\n" +
+                    "Description: " + getDescription());
+        }
     }
 
-    abstract class ManEaterBug extends Monsters implements EffectiveMonster {
+    abstract public static class ManEaterBug extends Monsters implements EffectiveMonster {
         public void setName(String name) {
             super.setName("ManEaterBug");
         }
@@ -253,32 +280,32 @@ public class EffectiveMonsters extends Monsters {
             super.setDescription("FLIP: Target 1 monster on the field; destroy it.");
         }
 
-        public String getName() {
-            return super.getName();
+        public static String getName() {
+            return "ManEaterBug";
         }
 
-        public String getType() {
-            return this.type;
+        public static String getType() {
+            return "Insect";
         }
 
-        public String getDescription() {
-            return super.getDescription();
+        public static String getDescription() {
+            return "FLIP: Target 1 monster on the field; destroy it.";
         }
 
         public String getId() {
             return super.getId();
         }
 
-        public int getLevel() {
-            return this.level;
+        public static int getLevel() {
+            return 2;
         }
 
-        public int getDefenceScore() {
-            return this.defenceScore;
+        public static int getDefenceScore() {
+            return 600;
         }
 
-        public int getAttackScore() {
-            return this.attackScore;
+        public static int getAttackScore() {
+            return 450;
         }
 
         public void addCardName() {
@@ -296,9 +323,18 @@ public class EffectiveMonsters extends Monsters {
         public void addMonsterCard() {
             super.addMonsterCard();
         }
+
+        public static void showCardInfo() {
+            System.out.println("Name: " + getName() + "\n" +
+                    "Level: " + getLevel() + "\n" +
+                    "Type: " + getType() + "\n" +
+                    "ATK: " + getAttackScore() + "\n" +
+                    "DEF: " + getDefenceScore() + "\n" +
+                    "Description: " + getDescription());
+        }
     }
 
-    abstract class GateGuardian extends Monsters implements EffectiveMonster {
+    abstract public static class GateGuardian extends Monsters implements EffectiveMonster {
         public void setName(String name) {
             super.setName("GateGuardian");
         }
@@ -327,32 +363,32 @@ public class EffectiveMonsters extends Monsters {
             super.setDescription("Cannot be Normal Summoned/Set. Must first be Special Summoned (from your hand) by Tributing 1 \"Sanga of the Thunder\", \"Kazejin\", and \"Suijin\".");
         }
 
-        public String getType() {
-            return this.type;
+        public static String getType() {
+            return "Warrior";
         }
 
         public String getId() {
             return super.getId();
         }
 
-        public int getDefenceScore() {
-            return this.defenceScore;
+        public static int getDefenceScore() {
+            return 3400;
         }
 
-        public int getAttackScore() {
-            return this.attackScore;
+        public static int getAttackScore() {
+            return 3750;
         }
 
-        public int getLevel() {
-            return this.level;
+        public static int getLevel() {
+            return 11;
         }
 
-        public String getName() {
-            return super.getName();
+        public static String getName() {
+            return "GateGuardian";
         }
 
-        public String getDescription() {
-            return super.getDescription();
+        public static String getDescription() {
+            return "Cannot be Normal Summoned/Set. Must first be Special Summoned (from your hand) by Tributing 1 \"Sanga of the Thunder\", \"Kazejin\", and \"Suijin\".";
         }
 
         public void addCardName() {
@@ -370,9 +406,18 @@ public class EffectiveMonsters extends Monsters {
         public void addMonsterCard() {
             super.addMonsterCard();
         }
+
+        public static void showCardInfo() {
+            System.out.println("Name: " + getName() + "\n" +
+                    "Level: " + getLevel() + "\n" +
+                    "Type: " + getType() + "\n" +
+                    "ATK: " + getAttackScore() + "\n" +
+                    "DEF: " + getDefenceScore() + "\n" +
+                    "Description: " + getDescription());
+        }
     }
 
-    abstract class Scanner extends Monsters implements EffectiveMonster {
+    abstract public static class Scanner extends Monsters implements EffectiveMonster {
         public void setName(String name) {
             super.setName("Scanner");
         }
@@ -401,32 +446,32 @@ public class EffectiveMonsters extends Monsters {
             super.setDescription("Once per turn, you can select 1 of your opponent's monsters that is removed from play. Until the End Phase, this card's name is treated as the selected monster's name, and this card has the same Attribute, Level, ATK, and DEF as the selected monster. If this card is removed from the field while this effect is applied, remove it from play.");
         }
 
-        public String getName() {
-            return super.getName();
+        public static String getName() {
+            return "Scanner";
         }
 
-        public String getType() {
-            return this.type;
+        public static String getType() {
+            return "Machine";
         }
 
-        public String getDescription() {
-            return super.getDescription();
+        public static String getDescription() {
+            return "Once per turn, you can select 1 of your opponent's monsters that is removed from play. Until the End Phase, this card's name is treated as the selected monster's name, and this card has the same Attribute, Level, ATK, and DEF as the selected monster. If this card is removed from the field while this effect is applied, remove it from play.";
         }
 
         public String getId() {
             return super.getId();
         }
 
-        public int getLevel() {
-            return this.level;
+        public static int getLevel() {
+            return 1;
         }
 
-        public int getDefenceScore() {
-            return this.defenceScore;
+        public static int getDefenceScore() {
+            return 0;
         }
 
-        public int getAttackScore() {
-            return this.attackScore;
+        public static int getAttackScore() {
+            return 0;
         }
 
         public void addCardName() {
@@ -444,9 +489,18 @@ public class EffectiveMonsters extends Monsters {
         public void addMonsterCard() {
             super.addMonsterCard();
         }
+
+        public static void showCardInfo() {
+            System.out.println("Name: " + getName() + "\n" +
+                    "Level: " + getLevel() + "\n" +
+                    "Type: " + getType() + "\n" +
+                    "ATK: " + getAttackScore() + "\n" +
+                    "DEF: " + getDefenceScore() + "\n" +
+                    "Description: " + getDescription());
+        }
     }
 
-    abstract class Marshmallon extends Monsters implements EffectiveMonster {
+    abstract public static class Marshmallon extends Monsters implements EffectiveMonster {
         public void setName(String name) {
             super.setName("Marshmallon");
         }
@@ -475,32 +529,32 @@ public class EffectiveMonsters extends Monsters {
             super.setDescription("Cannot be destroyed by battle. After damage calculation, if this card was attacked, and was face-down at the start of the Damage Step: The attacking player takes 1000 damage.");
         }
 
-        public String getName() {
-            return super.getName();
+        public static String getName() {
+            return "Marshmallon";
         }
 
-        public String getType() {
-            return this.type;
+        public static String getType() {
+            return "Fairy";
         }
 
-        public String getDescription() {
-            return super.getDescription();
+        public static String getDescription() {
+            return "Cannot be destroyed by battle. After damage calculation, if this card was attacked, and was face-down at the start of the Damage Step: The attacking player takes 1000 damage.";
         }
 
         public String getId() {
             return super.getId();
         }
 
-        public int getLevel() {
-            return this.level;
+        public static int getLevel() {
+            return 3;
         }
 
-        public int getDefenceScore() {
-            return this.defenceScore;
+        public static int getDefenceScore() {
+            return 500;
         }
 
-        public int getAttackScore() {
-            return this.attackScore;
+        public static int getAttackScore() {
+            return 300;
         }
 
         public void addCardName() {
@@ -518,9 +572,18 @@ public class EffectiveMonsters extends Monsters {
         public void addMonsterCard() {
             super.addMonsterCard();
         }
+
+        public static void showCardInfo() {
+            System.out.println("Name: " + getName() + "\n" +
+                    "Level: " + getLevel() + "\n" +
+                    "Type: " + getType() + "\n" +
+                    "ATK: " + getAttackScore() + "\n" +
+                    "DEF: " + getDefenceScore() + "\n" +
+                    "Description: " + getDescription());
+        }
     }
 
-    abstract class BeastKingBarbaros extends Monsters implements EffectiveMonster {
+    abstract public static class BeastKingBarbaros extends Monsters implements EffectiveMonster {
         public void setName(String name) {
             super.setName("BeastKingBarbaros");
         }
@@ -549,32 +612,32 @@ public class EffectiveMonsters extends Monsters {
             super.setDescription("You can Normal Summon/Set this card without Tributing, but its original ATK becomes 1900. You can Tribute 3 monsters to Tribute Summon (but not Set) this card. If Summoned this way: Destroy all cards your opponent controls.");
         }
 
-        public String getName() {
-            return super.getName();
+        public static String getName() {
+            return "BeastKingBarbaros";
         }
 
-        public String getType() {
-            return this.type;
+        public static String getType() {
+            return "Beast-Warrior";
         }
 
-        public String getDescription() {
-            return super.getDescription();
+        public static String getDescription() {
+            return "You can Normal Summon/Set this card without Tributing, but its original ATK becomes 1900. You can Tribute 3 monsters to Tribute Summon (but not Set) this card. If Summoned this way: Destroy all cards your opponent controls.";
         }
 
         public String getId() {
             return super.getId();
         }
 
-        public int getLevel() {
-            return this.level;
+        public static int getLevel() {
+            return 8;
         }
 
-        public int getDefenceScore() {
-            return this.defenceScore;
+        public static int getDefenceScore() {
+            return 1200;
         }
 
-        public int getAttackScore() {
-            return this.attackScore;
+        public static int getAttackScore() {
+            return 3000;
         }
 
         public void addCardName() {
@@ -592,9 +655,18 @@ public class EffectiveMonsters extends Monsters {
         public void addMonsterCard() {
             super.addMonsterCard();
         }
+
+        public static void showCardInfo() {
+            System.out.println("Name: " + getName() + "\n" +
+                    "Level: " + getLevel() + "\n" +
+                    "Type: " + getType() + "\n" +
+                    "ATK: " + getAttackScore() + "\n" +
+                    "DEF: " + getDefenceScore() + "\n" +
+                    "Description: " + getDescription());
+        }
     }
 
-    abstract class TexChanger extends Monsters implements EffectiveMonster {
+    abstract public static class TexChanger extends Monsters implements EffectiveMonster {
         public void setName(String name) {
             super.setName("TexChanger");
         }
@@ -623,32 +695,32 @@ public class EffectiveMonsters extends Monsters {
             super.setDescription("Once per turn, when your monster is targeted for an attack: You can negate that attack, then Special Summon 1 Cyberse Normal Monster from your hand, Deck, or GY.");
         }
 
-        public String getName() {
-            return super.getName();
+        public static String getName() {
+            return "TexChanger";
         }
 
-        public String getType() {
-            return this.type;
+        public static String getType() {
+            return "Cyberse";
         }
 
-        public String getDescription() {
-            return super.getDescription();
+        public static String getDescription() {
+            return "Once per turn, when your monster is targeted for an attack: You can negate that attack, then Special Summon 1 Cyberse Normal Monster from your hand, Deck, or GY.";
         }
 
         public String getId() {
             return super.getId();
         }
 
-        public int getLevel() {
-            return this.level;
+        public static int getLevel() {
+            return 1;
         }
 
-        public int getDefenceScore() {
-            return this.defenceScore;
+        public static int getDefenceScore() {
+            return 100;
         }
 
-        public int getAttackScore() {
-            return this.attackScore;
+        public static int getAttackScore() {
+            return 100;
         }
 
         public void addCardName() {
@@ -666,9 +738,18 @@ public class EffectiveMonsters extends Monsters {
         public void addMonsterCard() {
             super.addMonsterCard();
         }
+
+        public static void showCardInfo() {
+            System.out.println("Name: " + getName() + "\n" +
+                    "Level: " + getLevel() + "\n" +
+                    "Type: " + getType() + "\n" +
+                    "ATK: " + getAttackScore() + "\n" +
+                    "DEF: " + getDefenceScore() + "\n" +
+                    "Description: " + getDescription());
+        }
     }
 
-    abstract class TheCalculator extends Monsters implements EffectiveMonster {
+    abstract public static class TheCalculator extends Monsters implements EffectiveMonster {
         public void setName(String name) {
             super.setName("TheCalculator");
         }
@@ -697,32 +778,32 @@ public class EffectiveMonsters extends Monsters {
             super.setDescription("The ATK of this card is the combined Levels of all face-up monsters you control x 300.");
         }
 
-        public String getName() {
-            return super.getName();
+        public static String getName() {
+            return "TheCalculator";
         }
 
-        public String getType() {
-            return this.type;
+        public static String getType() {
+            return "Thunder";
         }
 
-        public String getDescription() {
-            return super.getDescription();
+        public static String getDescription() {
+            return "The ATK of this card is the combined Levels of all face-up monsters you control x 300.";
         }
 
         public String getId() {
             return super.getId();
         }
 
-        public int getLevel() {
-            return this.level;
+        public static int getLevel() {
+            return 2;
         }
 
-        public int getDefenceScore() {
-            return this.defenceScore;
+        public static int getDefenceScore() {
+            return 0;
         }
 
-        public int getAttackScore() {
-            return this.attackScore;
+        public static int getAttackScore() {
+            return 0;
         }
 
         public void addCardName() {
@@ -740,9 +821,18 @@ public class EffectiveMonsters extends Monsters {
         public void addMonsterCard() {
             super.addMonsterCard();
         }
+
+        public static void showCardInfo() {
+            System.out.println("Name: " + getName() + "\n" +
+                    "Level: " + getLevel() + "\n" +
+                    "Type: " + getType() + "\n" +
+                    "ATK: " + getAttackScore() + "\n" +
+                    "DEF: " + getDefenceScore() + "\n" +
+                    "Description: " + getDescription());
+        }
     }
 
-    abstract class MirageDragon extends Monsters implements EffectiveMonster {
+    abstract public static class MirageDragon extends Monsters implements EffectiveMonster {
         public void setName(String name) {
             super.setName("MirageDragon");
         }
@@ -771,32 +861,32 @@ public class EffectiveMonsters extends Monsters {
             super.setDescription("Your opponent cannot activate Trap Cards during the Battle Phase.");
         }
 
-        public String getName() {
-            return super.getName();
+        public static String getName() {
+            return "MirageDragon";
         }
 
-        public String getType() {
-            return this.type;
+        public static String getType() {
+            return "Dragon";
         }
 
-        public String getDescription() {
-            return super.getDescription();
+        public static String getDescription() {
+            return "Your opponent cannot activate Trap Cards during the Battle Phase.";
         }
 
         public String getId() {
             return super.getId();
         }
 
-        public int getLevel() {
-            return this.level;
+        public static int getLevel() {
+            return 4;
         }
 
-        public int getDefenceScore() {
-            return this.defenceScore;
+        public static int getDefenceScore() {
+            return 600;
         }
 
-        public int getAttackScore() {
-            return this.attackScore;
+        public static int getAttackScore() {
+            return 1600;
         }
 
         public void addCardName() {
@@ -814,9 +904,18 @@ public class EffectiveMonsters extends Monsters {
         public void addMonsterCard() {
             super.addMonsterCard();
         }
+
+        public static void showCardInfo() {
+            System.out.println("Name: " + getName() + "\n" +
+                    "Level: " + getLevel() + "\n" +
+                    "Type: " + getType() + "\n" +
+                    "ATK: " + getAttackScore() + "\n" +
+                    "DEF: " + getDefenceScore() + "\n" +
+                    "Description: " + getDescription());
+        }
     }
 
-    abstract class HeraldOfCreation extends Monsters implements EffectiveMonster {
+    abstract public static class HeraldOfCreation extends Monsters implements EffectiveMonster {
         public void setName(String name) {
             super.setName("HeraldOfCreation");
         }
@@ -845,32 +944,32 @@ public class EffectiveMonsters extends Monsters {
             super.setDescription("Once per turn: You can discard 1 card, then target 1 Level 7 or higher monster in your Graveyard; add that target to your hand.");
         }
 
-        public String getName() {
-            return super.getName();
+        public static String getName() {
+            return "HeraldOfCreation";
         }
 
-        public String getType() {
-            return this.type;
+        public static String getType() {
+            return "Spellcaster";
         }
 
-        public String getDescription() {
-            return super.getDescription();
+        public static String getDescription() {
+            return "Once per turn: You can discard 1 card, then target 1 Level 7 or higher monster in your Graveyard; add that target to your hand.";
         }
 
         public String getId() {
             return super.getId();
         }
 
-        public int getLevel() {
-            return this.level;
+        public static int getLevel() {
+            return 4;
         }
 
-        public int getDefenceScore() {
-            return this.defenceScore;
+        public static int getDefenceScore() {
+            return 600;
         }
 
-        public int getAttackScore() {
-            return this.attackScore;
+        public static int getAttackScore() {
+            return 1800;
         }
 
         public void addCardName() {
@@ -888,9 +987,18 @@ public class EffectiveMonsters extends Monsters {
         public void addMonsterCard() {
             super.addMonsterCard();
         }
+
+        public static void showCardInfo() {
+            System.out.println("Name: " + getName() + "\n" +
+                    "Level: " + getLevel() + "\n" +
+                    "Type: " + getType() + "\n" +
+                    "ATK: " + getAttackScore() + "\n" +
+                    "DEF: " + getDefenceScore() + "\n" +
+                    "Description: " + getDescription());
+        }
     }
 
-    abstract class ExploderDragon extends Monsters implements EffectiveMonster {
+    abstract public static class ExploderDragon extends Monsters implements EffectiveMonster {
         public void setName(String name) {
             super.setName("ExploderDragon");
         }
@@ -919,32 +1027,32 @@ public class EffectiveMonsters extends Monsters {
             super.setDescription("If this card is destroyed by battle and sent to the Graveyard: Destroy the monster that destroyed it. Neither player takes any battle damage from attacks involving this attacking card.");
         }
 
-        public String getName() {
-            return super.getName();
+        public static String getName() {
+            return "ExploderDragon";
         }
 
-        public String getType() {
-            return this.type;
+        public static String getType() {
+            return "Dragon";
         }
 
-        public String getDescription() {
-            return super.getDescription();
+        public static String getDescription() {
+            return "If this card is destroyed by battle and sent to the Graveyard: Destroy the monster that destroyed it. Neither player takes any battle damage from attacks involving this attacking card.";
         }
 
         public String getId() {
             return super.getId();
         }
 
-        public int getLevel() {
-            return this.level;
+        public static int getLevel() {
+            return 3;
         }
 
-        public int getDefenceScore() {
-            return this.defenceScore;
+        public static int getDefenceScore() {
+            return 0;
         }
 
-        public int getAttackScore() {
-            return this.attackScore;
+        public static int getAttackScore() {
+            return 1000;
         }
 
         public void addCardName() {
@@ -962,9 +1070,18 @@ public class EffectiveMonsters extends Monsters {
         public void addMonsterCard() {
             super.addMonsterCard();
         }
+
+        public static void showCardInfo() {
+            System.out.println("Name: " + getName() + "\n" +
+                    "Level: " + getLevel() + "\n" +
+                    "Type: " + getType() + "\n" +
+                    "ATK: " + getAttackScore() + "\n" +
+                    "DEF: " + getDefenceScore() + "\n" +
+                    "Description: " + getDescription());
+        }
     }
 
-    abstract class TerratigerTheEmpowredWorrier extends Monsters implements EffectiveMonster {
+    abstract public static class TerratigerTheEmpowredWorrier extends Monsters implements EffectiveMonster {
         public void setName(String name) {
             super.setName("TerratigerTheEmpowredWorrier");
         }
@@ -993,32 +1110,32 @@ public class EffectiveMonsters extends Monsters {
             super.setDescription("When this card is Normal Summoned: You can Special Summon 1 Level 4 or lower Normal Monster from your hand in Defense Position.");
         }
 
-        public String getName() {
-            return super.getName();
+        public static String getName() {
+            return "TerratigerTheEmpowredWorrier";
         }
 
-        public String getType() {
-            return this.type;
+        public static String getType() {
+            return "Warrior";
         }
 
-        public String getDescription() {
-            return super.getDescription();
+        public static String getDescription() {
+            return "When this card is Normal Summoned: You can Special Summon 1 Level 4 or lower Normal Monster from your hand in Defense Position.";
         }
 
         public String getId() {
             return super.getId();
         }
 
-        public int getLevel() {
-            return this.level;
+        public static int getLevel() {
+            return 4;
         }
 
-        public int getDefenceScore() {
-            return this.defenceScore;
+        public static int getDefenceScore() {
+            return 1200;
         }
 
-        public int getAttackScore() {
-            return this.attackScore;
+        public static int getAttackScore() {
+            return 1800;
         }
 
         public void addCardName() {
@@ -1036,9 +1153,18 @@ public class EffectiveMonsters extends Monsters {
         public void addMonsterCard() {
             super.addMonsterCard();
         }
+
+        public static void showCardInfo() {
+            System.out.println("Name: " + getName() + "\n" +
+                    "Level: " + getLevel() + "\n" +
+                    "Type: " + getType() + "\n" +
+                    "ATK: " + getAttackScore() + "\n" +
+                    "DEF: " + getDefenceScore() + "\n" +
+                    "Description: " + getDescription());
+        }
     }
 
-    abstract class TheTricky extends Monsters implements EffectiveMonster {
+    abstract public static class TheTricky extends Monsters implements EffectiveMonster {
         public void setName(String name) {
             super.setName("TheTricky");
         }
@@ -1067,32 +1193,32 @@ public class EffectiveMonsters extends Monsters {
             super.setDescription("You can Special Summon this card (from your hand) by discarding 1 card.");
         }
 
-        public String getName() {
-            return super.getName();
+        public static String getName() {
+            return "TheTricky";
         }
 
-        public String getType() {
-            return this.type;
+        public static String getType() {
+            return "Spellcaster";
         }
 
-        public String getDescription() {
-            return super.getDescription();
+        public static String getDescription() {
+            return "You can Special Summon this card (from your hand) by discarding 1 card.";
         }
 
         public String getId() {
             return super.getId();
         }
 
-        public int getLevel() {
-            return this.level;
+        public static int getLevel() {
+            return 5;
         }
 
-        public int getDefenceScore() {
-            return this.defenceScore;
+        public static int getDefenceScore() {
+            return 1200;
         }
 
-        public int getAttackScore() {
-            return this.attackScore;
+        public static int getAttackScore() {
+            return 2000;
         }
 
         public void addCardName() {
@@ -1109,6 +1235,15 @@ public class EffectiveMonsters extends Monsters {
 
         public void addMonsterCard() {
             super.addMonsterCard();
+        }
+
+        public static void showCardInfo() {
+            System.out.println("Name: " + getName() + "\n" +
+                    "Level: " + getLevel() + "\n" +
+                    "Type: " + getType() + "\n" +
+                    "ATK: " + getAttackScore() + "\n" +
+                    "DEF: " + getDefenceScore() + "\n" +
+                    "Description: " + getDescription());
         }
     }
 }
