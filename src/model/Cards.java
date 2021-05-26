@@ -64,9 +64,9 @@ public class Cards {
         this.id = id;
     }
 
-    public String getDescription() {
-        return this.description;
-    }
+//    public static String getDescription() {
+//        return this.description;
+//    }
 
     public void setDescription(String description) {
         this.description = description;
