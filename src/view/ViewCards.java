@@ -10,15 +10,17 @@ import static model.NormalMonsters.*;
 import static model.Cards.*;
 import static model.EffectiveMonster.*;
 import static model.NormalMonster.*;
+import static model.NormalSpellsAndTraps.*;
+import static model.NormalSpells.*;
 
 public class ViewCards {
     public ArrayList<String> ListOfCardsInfo = new ArrayList<>();
     public HashMap<String, String> card = new HashMap<>();
 
-    public String showCard(String name) { // delete String cardInfo as an input
+    public void showCard(String name) { // delete String cardInfo as an input
         Cards cards = new Cards();
         if (!cards.allCardsName.contains(name)) {
-            return "Invalid card name!";
+            System.out.println("Invalid card name!");
         }
         else if (cards.allMonsterCardsName.contains(name)) {
             switch (name) {
@@ -105,8 +107,79 @@ public class ViewCards {
                 case "SpiralSerpent":
                     SpiralSerpent.showCardInfo();
             }
-    }
-        else if ()
+    }else if (cards.allTrapCardsName.contains(name)) {
+            switch (name) {
+                case "MagicCylinder":
+                    NormalTraps.MagicCylinder.showCardInfo();
+                case "MirrorForce":
+                    NormalTraps.MirrorForce.showCardInfo();
+                case "MindCrush":
+                    NormalTraps.MindCrush.showCardInfo();
+                case "TrapHole":
+                    NormalTraps.TrapHole.showCardInfo();
+                case "TorrentialTribute":
+                    NormalTraps.TorrentialTribute.showCardInfo();
+                case "TimeSeal":
+                    NormalTraps.TimeSeal.showCardInfo();
+                case "NegateAttack":
+                    NormalTraps.NegateAttack.showCardInfo();
+                case "SolemnWarning":
+                    NormalTraps.SolemnWarning.showCardInfo();
+                case "MagicJammer":
+                    NormalTraps.MagicJammer.showCardInfo();
+                case "CallOfTheHaunted":
+                    NormalTraps.CallOfTheHaunted.showCardInfo();
+            }
+        } else if (cards.allSpellCardsName.contains(name)) {
+            switch (name) {
+                case "MonsterReborn":
+                    MonsterReborn.showCardInfo();
+                case "TerraForming":
+                    TerraForming.showCardInfo();
+                case "PotOfGreed":
+                    PotOfGreed.showCardInfo();
+                case "Raigeki":
+                    Raigeki.showCardInfo();
+                case "ChangeOfHeart":
+                    ChangeOfHeart.showCardInfo();
+                case "HarpiesFeatherDuster":
+                    HarpiesFeatherDuster.showCardInfo();
+                case "SwordOfRevealingLight":
+                    SwordOfRevealingLight.showCardInfo();
+                case "DarkHole":
+                    DarkHole.showCardInfo();
+                case "SupplySquad":
+                    SupplySquad.showCardInfo();
+                case "SpellAbsorption":
+                    SpellAbsorption.showCardInfo();
+                case "AdvancedRitualArt":
+                    RitualSpells.AdvancedRitualArt.showCardInfo();
+                case "Umiiruka":
+                    FieldSpells.Umiiruka.showCardInfo();
+                case "ClosedForest":
+                    FieldSpells.ClosedForest.showCardInfo();
+                case "Forest":
+                    FieldSpells.Forest.showCardInfo();
+                case "Yami":
+                    FieldSpells.Yami.showCardInfo();
+                case "MessengerOfPeace":
+                    ContinuousSpells.MessengerOfPeace.showCardInfo();
+                case "TwinTwisters":
+                    QuickPlaySpells.TwinTwisters.showCardInfo();
+                case "MysticalSpaceTyphoon":
+                    QuickPlaySpells.MysticalSpaceTyphoon.showCardInfo();
+                case "RingOfDefence":
+                    QuickPlaySpells.RingOfDefence.showCardInfo();
+                case "SwordOfDarkDestruction":
+                    EquipSpells.SwordOfDarkDestruction.showCardInfo();
+                case "BlackPendant":
+                    EquipSpells.BlackPendant.showCardInfo();
+                case "UnitedWeStand":
+                    EquipSpells.UnitedWeStand.showCardInfo();
+                case "MagnumShield":
+                    EquipSpells.MagnumShield.showCardInfo();
+        }
+        }
 /*
     public String showCardInfo(HashMap card) {
     }
@@ -115,4 +188,5 @@ public class ViewCards {
     }
 
  */
+}
 }

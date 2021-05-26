@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Cards {
 
-    private String name;
+    public static String name;
     private String id;
     private String description;
     private String state;
@@ -26,12 +26,12 @@ public class Cards {
         allCardsId.add(getId());
     }
 
-    public void addSpellCard() {
-        allSpellCardsName.add(getName());
+    public void addSpellCard(String spellName) {
+        allSpellCardsName.add(spellName);
     }
 
-    public void addTrapCard() {
-        allTrapCardsName.add(getName());
+    public void addTrapCard(String trapName) {
+        allTrapCardsName.add(trapName);
     }
 
     public void addMonsterCard() {
@@ -48,7 +48,7 @@ public class Cards {
     public ArrayList<String> allMonsterCardsName;
     public ArrayList<String> listOfCards;
 
-    public String getName() {
+    public static String getName() {
         return name;
     }
 
@@ -65,7 +65,7 @@ public class Cards {
     }
 
     public String getDescription() {
-        return description;
+        return this.description;
     }
 
     public void setDescription(String description) {
