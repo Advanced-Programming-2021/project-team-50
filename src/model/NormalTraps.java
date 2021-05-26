@@ -198,11 +198,11 @@ public class NormalTraps extends SpellAndTraps{
         }
 
         public static String getDescription() {
-            return "When your opponent Normal or Flip Summons 1 monster with 1000 or more ATK: Target that monster; destroy that target.\n" +;
+            return "When your opponent Normal or Flip Summons 1 monster with 1000 or more ATK: Target that monster; destroy that target.\n";
         }
 
         public void setDescription(String description) {
-            super.setDescription("When your opponent Normal or Flip Summons 1 monster with 1000 or more ATK: Target that monster; destroy that target.\n" +);
+            super.setDescription("When your opponent Normal or Flip Summons 1 monster with 1000 or more ATK: Target that monster; destroy that target.\n");
         }
 
         public void addSpellCard() {

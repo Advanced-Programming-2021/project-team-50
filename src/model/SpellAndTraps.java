@@ -9,7 +9,7 @@ class SpellAndTraps extends Cards{
     //ArrayList
 
   public void setType(String cardType) { this.setName(cardType); }
-    public String getType() {
+    public static String getType() {
         return type;
     }
 
@@ -23,3 +23,19 @@ class SpellAndTraps extends Cards{
 
 
 }
+
+//Spell
+    public static void showCardInfo() {
+        System.out.println("Name: " + getName() + "\n" +
+                "Spell" +"\n" +
+                "Type: " + getType() + "\n" +
+                "Description: " + getDescription());
+    }
+
+    //Trap
+    public static void showCardInfo() {
+        System.out.println("Name: " + getName() + "\n" +
+                "Trap" + "\n" +
+                "Type: " + getType() + "\n" +
+                "Description: " + getDescription());
+    }
