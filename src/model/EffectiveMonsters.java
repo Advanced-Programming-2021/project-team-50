@@ -417,7 +417,7 @@ public class EffectiveMonsters extends Monsters {
         }
     }
 
-    abstract public static class Scanner extends Monsters implements EffectiveMonster {
+    abstract public static class Scannner extends Monsters implements EffectiveMonster {
         public void setName(String name) {
             super.setName("Scanner");
         }

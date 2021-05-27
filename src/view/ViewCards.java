@@ -4,6 +4,9 @@ import model.*;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import static model.EffectiveMonsters.*;
 import static model.NormalMonsters.*;
@@ -14,6 +17,36 @@ import static model.NormalSpellsAndTraps.*;
 import static model.NormalSpells.*;
 
 public class ViewCards {
+
+    private ViewCards(Scanner scanner) {
+        this.scanner = scanner;
+    }
+
+    private static ViewCards instance;
+    private Scanner scanner;
+
+    public static ViewCards getInstance(Scanner scanner) {
+        if (instance == null) {
+            instance = new ViewCards(scanner);
+        }
+        instance.scanner = scanner;
+        return instance;
+    }
+
+    public void showViewCardsMenu() {
+        System.out.println("Which card do you want to see?");
+        String line = scanner.nextLine();
+        Pattern viewCards = Pattern.compile("card show");
+        Matcher showCardInfo = viewCards.matcher(line);
+        if (showCardInfo.find()) {
+            String[] line2 = line.split(" ");
+            line2 = line2[2].split("<");
+            line2 = line2[1].split(">");
+            name = line2[0];
+            showCard(name);
+        }
+    }
+
     public ArrayList<String> ListOfCardsInfo = new ArrayList<>();
     public HashMap<String, String> card = new HashMap<>();
 
@@ -35,7 +68,7 @@ public class ViewCards {
                 case "GateGuardian":
                     GateGuardian.showCardInfo();
                 case "Scanner":
-                    Scanner.showCardInfo();
+                    Scannner.showCardInfo();
                 case "Marshmallon":
                     Marshmallon.showCardInfo();
                 case "BeastKingBarbaros":
