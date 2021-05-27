@@ -33,29 +33,23 @@ public class ViewCards {
         return instance;
     }
 
-    public void showViewCardsMenu() {
-        System.out.println("Which card do you want to see?");
-        String line = scanner.nextLine();
-        Pattern viewCards = Pattern.compile("card show");
-        Matcher showCardInfo = viewCards.matcher(line);
-        if (showCardInfo.find()) {
-            String[] line2 = line.split(" ");
-            line2 = line2[2].split("<");
-            line2 = line2[1].split(">");
-            name = line2[0];
-            showCard(name);
-        }
+    public static void showCardInfo(String input) {
+        String[] line2 = input.split(" ");
+        line2 = line2[2].split("<");
+        line2 = line2[1].split(">");
+        name = line2[0];
+        showCard(name);
+
     }
 
     public ArrayList<String> ListOfCardsInfo = new ArrayList<>();
     public HashMap<String, String> card = new HashMap<>();
 
-    public void showCard(String name) { // delete String cardInfo as an input
+    public static void showCard(String name) { // delete String cardInfo as an input
         Cards cards = new Cards();
-        if (!cards.allCardsName.contains(name)) {
+        if (!allCardsName.contains(name)) {
             System.out.println("Invalid card name!");
-        }
-        else if (cards.allMonsterCardsName.contains(name)) {
+        } else if (cards.allMonsterCardsName.contains(name)) {
             switch (name) {
                 case "CommandKnight":
                     CommandKnight.showCardInfo();
@@ -140,7 +134,7 @@ public class ViewCards {
                 case "SpiralSerpent":
                     SpiralSerpent.showCardInfo();
             }
-    }else if (cards.allTrapCardsName.contains(name)) {
+        } else if (cards.allTrapCardsName.contains(name)) {
             switch (name) {
                 case "MagicCylinder":
                     NormalTraps.MagicCylinder.showCardInfo();
@@ -211,7 +205,7 @@ public class ViewCards {
                     EquipSpells.UnitedWeStand.showCardInfo();
                 case "MagnumShield":
                     EquipSpells.MagnumShield.showCardInfo();
-        }
+            }
         }
 /*
     public String showCardInfo(HashMap card) {
@@ -221,5 +215,5 @@ public class ViewCards {
     }
 
  */
-}
+    }
 }
