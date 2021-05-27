@@ -43,7 +43,7 @@ public class LoginMenu {
         Matcher passwordMatcher = passwordPattern.matcher(input);
 
         if (input.equals("menu show-current")) {
-            System.out.println("Login Menu");
+            LoginMenu.getInstance(scanner).showLoginMessage();
         } else if (input.equals("menu exit")) {
             WelcomeMenu.getInstance(scanner).showWelcomeMessage();
         } else if (userLogin.find()) {

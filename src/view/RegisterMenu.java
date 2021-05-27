@@ -45,7 +45,7 @@ public class RegisterMenu {
         Matcher passwordMatcher = passwordPattern.matcher(input);
 
         if (input.equals("menu show-current")) {
-            System.out.println("Register Menu");
+            RegisterMenu.getInstance(scanner).showRegisterMessage();
         } else if (input.equals("menu exit")) {
             WelcomeMenu.getInstance(scanner).showWelcomeMessage();
         } else if (userCreate.find()) {
@@ -80,7 +80,7 @@ public class RegisterMenu {
                             C) has at least 5 & at most 10 a-z characters exactly after B""");
                     RegisterMenu.getInstance(scanner).showRegisterMessage();
                 } else {
-                    new User(nickname, username, password);
+                    new User(nickname, username, password, 0);
                     System.out.println("user created successfully!");
                     WelcomeMenu.getInstance(scanner).showWelcomeMessage();
                 }
