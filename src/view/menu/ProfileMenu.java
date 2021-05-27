@@ -83,6 +83,7 @@ public class ProfileMenu {
             }
         }else if (input.equals("menu show-current")) {
             System.out.println("Profile Menu");
+            ProfileMenu.getInstance(scanner, user).showProfileMenuMessage();
         }else if (input.equals("menu exit")) {
             MainMenu.getInstance(scanner, user).showMainMessage();
         }else {
