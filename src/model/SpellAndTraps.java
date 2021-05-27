@@ -1,14 +1,17 @@
 
 package model;
 
-class SpellAndTraps extends Cards{
-    public String type  ;
+class SpellAndTraps extends Cards {
+    public static String type;
     public String icon;
     public String spellCardName;
 
     //ArrayList
 
-  public void setType(String cardType) { this.setName(cardType); }
+    public void setType(String cardType) {
+        this.setName(cardType);
+    }
+
     public static String getType() {
         return type;
     }
@@ -22,20 +25,19 @@ class SpellAndTraps extends Cards{
     }
 
 
-}
-
-//Spell
-    public static void showCardInfo() {
+    //Spell
+    public static void showSpellCardInfo() {
         System.out.println("Name: " + getName() + "\n" +
-                "Spell" +"\n" +
+                "Spell" + "\n" +
                 "Type: " + getType() + "\n" +
-                "Description: " + getDescription());
+                "Description: ");
     }
 
     //Trap
-    public static void showCardInfo() {
+    public static void showTrapCardInfo() {
         System.out.println("Name: " + getName() + "\n" +
                 "Trap" + "\n" +
                 "Type: " + getType() + "\n" +
-                "Description: " + getDescription());
+                "Description: ");
     }
+}
