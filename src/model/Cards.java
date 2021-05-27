@@ -41,7 +41,7 @@ public class Cards {
 //    HashMap<String,String> allCardsNameAndDescription=new HashMap<>();
 
 
-    public ArrayList<String> allCardsName = new ArrayList<>();
+    public static ArrayList<String> allCardsName = new ArrayList<>();
     public ArrayList<String> allCardsId;
     public ArrayList<String> allSpellCardsName;
     public ArrayList<String> allTrapCardsName;
