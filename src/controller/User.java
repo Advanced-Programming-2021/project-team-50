@@ -8,7 +8,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class User {
-    private static final ArrayList<User> allUsers;
+    public static final ArrayList<User> allUsers;
 
     static {
         allUsers = new ArrayList<>();
@@ -18,6 +18,7 @@ public class User {
     private String username;
     private String password;
     private int score;
+    private int money;
 
     public User(String nickname, String username, String password, int score) {
         this.nickname = nickname;
@@ -40,6 +41,14 @@ public class User {
         this.password = password;
     }
 
+    public void setScore(int score) {
+        this.score = score;
+    }
+
+    public void setMoney(int money) {
+        this.money = money;
+    }
+
     public String getNickname() {
         return nickname;
     }
@@ -50,6 +59,14 @@ public class User {
 
     public String getPassword() {
         return password;
+    }
+
+    public int getScore() {
+        return score;
+    }
+
+    public int getMoney() {
+        return money;
     }
 
     public static boolean isUsernameUnique(String username) {
@@ -119,5 +136,29 @@ public class User {
             }
         }
         return true;
+    }
+
+    public static void increaseMoney(String name, int money) {
+        for (User user : allUsers) {
+            if (user.getNickname().equals(name)) {
+                user.setMoney(user.getMoney()+money);
+            }
+        }
+    }
+
+    public static void decreaseMoney(String name, int money) {
+        for (User user : allUsers) {
+            if (user.getNickname().equals(name)) {
+                user.setMoney(user.getMoney()-money);
+            }
+        }
+    }
+
+    public static void increaseScore(String name, int score) {
+        for (User user : allUsers) {
+            if (user.getNickname().equals(name)) {
+                user.setScore(user.getScore()+score);
+            }
+        }
     }
 }
