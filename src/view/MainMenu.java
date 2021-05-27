@@ -78,7 +78,7 @@ public class MainMenu {
         } else if (input.equals("0") || input.equals("menu exit")) {
             LoginMenu.getInstance(scanner).showLoginMessage();
         }else if (input.equals("menu show-current")) {
-            System.out.println("Main Menu");
+            MainMenu.getInstance(scanner, user).showMainMessage();
         }else if (input.equals("6") || input.equals("user logout")) {
             System.out.println("user logged out successfully!");
             WelcomeMenu.getInstance(scanner).showWelcomeMessage();
