@@ -17,14 +17,13 @@ public class User {
     private String nickname;
     private String username;
     private String password;
-    private int yearDate;
-    private int monthDate;
-    private int dayDate;
+    private int score;
 
-    public User(String nickname, String username, String password) {
+    public User(String nickname, String username, String password, int score) {
         this.nickname = nickname;
         this.username = username;
         this.password = password;
+        this.score = score;
 
         allUsers.add(this);
     }
