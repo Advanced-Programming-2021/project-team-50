@@ -8,6 +8,7 @@ public class Cards {
     private String id;
     private String description;
     private String state;
+    public int price;
     //state could also be boolean
 
     public String cardState(String state) {
@@ -64,7 +65,15 @@ public class Cards {
         this.id = id;
     }
 
-//    public static String getDescription() {
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    //    public static String getDescription() {
 //        return this.description;
 //    }
 
