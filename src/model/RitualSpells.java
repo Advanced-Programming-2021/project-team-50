@@ -11,6 +11,14 @@ public class RitualSpells extends SpellAndTraps{
             super.setName("AdvancedRitualArt");
         }
 
+        public void setPrice() {
+            super.setPrice(3000);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
+        }
+
         public String getIcon() {
             return super.getIcon();
         }

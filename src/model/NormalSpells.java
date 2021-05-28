@@ -11,6 +11,14 @@ public class NormalSpells extends SpellAndTraps {
             super.setName("MonsterReborn");
         }
 
+        public void setPrice() {
+            super.setPrice(2500);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
+        }
+
         public String getIcon() {
             return super.getIcon();
         }
@@ -49,7 +57,7 @@ public class NormalSpells extends SpellAndTraps {
 
         public static void showCardInfo() {
             System.out.println("Name: " + getName() + "\n" +
-                    "Spell" +"\n" +
+                    "Spell" + "\n" +
                     "Type: " + getType() + "\n" +
                     "Description: " + getDescription());
         }
@@ -63,6 +71,14 @@ public class NormalSpells extends SpellAndTraps {
 
         public void setName(String cardName) {
             super.setName("TerraForming");
+        }
+
+        public void setPrice() {
+            super.setPrice(2500);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
         }
 
         public String getIcon() {
@@ -103,7 +119,7 @@ public class NormalSpells extends SpellAndTraps {
 
         public static void showCardInfo() {
             System.out.println("Name: " + getName() + "\n" +
-                    "Spell" +"\n" +
+                    "Spell" + "\n" +
                     "Type: " + getType() + "\n" +
                     "Description: " + getDescription());
         }
@@ -117,6 +133,14 @@ public class NormalSpells extends SpellAndTraps {
 
         public void setName(String cardName) {
             super.setName("PotOfGreed");
+        }
+
+        public void setPrice() {
+            super.setPrice(2500);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
         }
 
         public String getIcon() {
@@ -157,7 +181,7 @@ public class NormalSpells extends SpellAndTraps {
 
         public static void showCardInfo() {
             System.out.println("Name: " + getName() + "\n" +
-                    "Spell" +"\n" +
+                    "Spell" + "\n" +
                     "Type: " + getType() + "\n" +
                     "Description: " + getDescription());
         }
@@ -170,6 +194,14 @@ public class NormalSpells extends SpellAndTraps {
 
         public void setName(String cardName) {
             super.setName("Raigeki");
+        }
+
+        public void setPrice() {
+            super.setPrice(2500);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
         }
 
         public String getIcon() {
@@ -210,7 +242,7 @@ public class NormalSpells extends SpellAndTraps {
 
         public static void showCardInfo() {
             System.out.println("Name: " + getName() + "\n" +
-                    "Spell" +"\n" +
+                    "Spell" + "\n" +
                     "Type: " + getType() + "\n" +
                     "Description: " + getDescription());
         }
@@ -224,6 +256,14 @@ public class NormalSpells extends SpellAndTraps {
 
         public void setName(String cardName) {
             super.setName("ChangeOfHeart");
+        }
+
+        public void setPrice() {
+            super.setPrice(2500);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
         }
 
         public String getIcon() {
@@ -264,7 +304,7 @@ public class NormalSpells extends SpellAndTraps {
 
         public static void showCardInfo() {
             System.out.println("Name: " + getName() + "\n" +
-                    "Spell" +"\n" +
+                    "Spell" + "\n" +
                     "Type: " + getType() + "\n" +
                     "Description: " + getDescription());
         }
@@ -278,6 +318,14 @@ public class NormalSpells extends SpellAndTraps {
 
         public void setName(String cardName) {
             super.setName("Harpie'sFeatherDuster");
+        }
+
+        public void setPrice() {
+            super.setPrice(2500);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
         }
 
         public String getIcon() {
@@ -318,7 +366,7 @@ public class NormalSpells extends SpellAndTraps {
 
         public static void showCardInfo() {
             System.out.println("Name: " + getName() + "\n" +
-                    "Spell" +"\n" +
+                    "Spell" + "\n" +
                     "Type: " + getType() + "\n" +
                     "Description: " + getDescription());
         }
@@ -331,6 +379,14 @@ public class NormalSpells extends SpellAndTraps {
 
         public void setName(String cardName) {
             super.setName("SwordOfRevealingLight");
+        }
+
+        public void setPrice() {
+            super.setPrice(2500);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
         }
 
         public String getIcon() {
@@ -371,7 +427,7 @@ public class NormalSpells extends SpellAndTraps {
 
         public static void showCardInfo() {
             System.out.println("Name: " + getName() + "\n" +
-                    "Spell" +"\n" +
+                    "Spell" + "\n" +
                     "Type: " + getType() + "\n" +
                     "Description: " + getDescription());
         }
@@ -385,6 +441,14 @@ public class NormalSpells extends SpellAndTraps {
 
         public void setName(String cardName) {
             super.setName("DarkHole");
+        }
+
+        public void setPrice() {
+            super.setPrice(2500);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
         }
 
         public String getIcon() {
@@ -425,115 +489,7 @@ public class NormalSpells extends SpellAndTraps {
 
         public static void showCardInfo() {
             System.out.println("Name: " + getName() + "\n" +
-                    "Spell" +"\n" +
-                    "Type: " + getType() + "\n" +
-                    "Description: " + getDescription());
-        }
-    }
-
-    abstract public static class SupplySquad extends SpellAndTraps {
-        public static String getName() {
-            return "SupplySquad";
-        }
-
-        public void setName(String cardName) {
-            super.setName("SupplySquad");
-        }
-
-
-        public String getIcon() {
-            return super.getIcon();
-        }
-
-        public void setIcon(String icon) {
-            super.setIcon("Spell");
-        }
-
-        public static String getType() {
-            return "Normal Spell";
-        }
-
-        public void setType(String cardType) {
-            super.setType("Normal Spell");
-        }
-
-        public String getId() {
-            return super.getId();
-        }
-
-        public void setId(String id) {
-            super.setId("YS18-En032");
-        }
-
-        public static String getDescription() {
-            return "Once per turn,if a monster(s) you control is destroyed by battle or card effect:Draw 1 card";
-        }
-
-        public void setDescription(String description) {
-            super.setDescription("Once per turn,if a monster(s) you control is destroyed by battle or card effect:Draw 1 card");
-        }
-
-        public void addSpellCard() {
-            super.addSpellCard("SupplySquad");
-        }
-
-        public static void showCardInfo() {
-            System.out.println("Name: " + getName() + "\n" +
-                    "Spell" +"\n" +
-                    "Type: " + getType() + "\n" +
-                    "Description: " + getDescription());
-        }
-    }
-
-    abstract public static class SpellAbsorption extends SpellAndTraps {
-        public static String getName() {
-            return "SpellAbsorption";
-        }
-
-        public void setName(String cardName) {
-            super.setName("SpellAbsorption");
-        }
-
-
-        public String getIcon() {
-            return super.getIcon();
-        }
-
-        public void setIcon(String icon) {
-            super.setIcon("Spell");
-        }
-
-        public static String getType() {
-            return "Normal Spell";
-        }
-
-        public void setType(String cardType) {
-            super.setType("Normal Spell");
-        }
-
-        public String getId() {
-            return super.getId();
-        }
-
-        public void setId(String id) {
-            super.setId("DR3-159");
-        }
-
-        public static String getDescription() {
-            return "Each time a Spell Card is activated, gain 500 LP immediately after it resolves.";
-        }
-
-        public void setDescription(String description) {
-            super.setDescription("Each time a Spell Card is activated, gain 500 LP immediately after it resolves.");
-        }
-
-        public void addSpellCard() {
-            super.addSpellCard("SpellAbsorption");
-        }
-
-        public static void showCardInfo() {
-            System.out.println("Name: " + getName() + "\n" +
-                    "Spell" +"\n" +
+                    "Spell" + "\n" +
                     "Type: " + getType() + "\n" +
                     "Description: " + getDescription());
         }

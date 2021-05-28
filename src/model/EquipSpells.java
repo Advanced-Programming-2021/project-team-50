@@ -11,6 +11,14 @@ public class EquipSpells extends SpellAndTraps{
             super.setName("SwordOfDarkDestruction");
         }
 
+        public void setPrice() {
+            super.setPrice(4300);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
+        }
+
         public String getIcon() {
             return super.getIcon();
         }
@@ -63,6 +71,14 @@ public class EquipSpells extends SpellAndTraps{
 
         public void setName(String cardName) {
             super.setName("BlackPendant");
+        }
+
+        public void setPrice() {
+            super.setPrice(4300);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
         }
 
         public String getIcon() {
@@ -119,6 +135,14 @@ public class EquipSpells extends SpellAndTraps{
             super.setName("UnitedWeStand");
         }
 
+        public void setPrice() {
+            super.setPrice(4300);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
+        }
+
         public String getIcon() {
             return super.getIcon();
         }
@@ -171,6 +195,14 @@ public class EquipSpells extends SpellAndTraps{
 
         public void setName(String cardName) {
             super.setName("MagnumShield");
+        }
+
+        public void setPrice() {
+            super.setPrice(4300);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
         }
 
         public String getIcon() {

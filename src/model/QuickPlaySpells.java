@@ -11,6 +11,14 @@ public class QuickPlaySpells extends SpellAndTraps{
             super.setName("TwinTwisters");
         }
 
+        public void setPrice() {
+            super.setPrice(3500);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
+        }
+
         public String getIcon() {
             return super.getIcon();
         }
@@ -65,6 +73,14 @@ public class QuickPlaySpells extends SpellAndTraps{
             super.setName("MysticalSpaceTyphoon");
         }
 
+        public void setPrice() {
+            super.setPrice(3500);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
+        }
+
         public String getIcon() {
             return super.getIcon();
         }
@@ -117,6 +133,14 @@ public class QuickPlaySpells extends SpellAndTraps{
 
         public void setName(String cardName) {
             super.setName("RingOfDefence");
+        }
+
+        public void setPrice() {
+            super.setPrice(3500);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
         }
 
         public String getIcon() {
