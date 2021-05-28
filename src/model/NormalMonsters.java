@@ -12,6 +12,14 @@ public class NormalMonsters extends Monsters {
             return "BattleOx";
         }
 
+        public void setPrice() {
+            super.setPrice(2900);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
+        }
+
         public void setLevel() {
             this.level = 4;
         }
@@ -99,6 +107,14 @@ public class NormalMonsters extends Monsters {
             this.level = 4;
         }
 
+        public void setPrice() {
+            super.setPrice(3100);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
+        }
+
         public static int getLevel() {
             return 4;
         }
@@ -176,6 +192,14 @@ public class NormalMonsters extends Monsters {
 
         public static String getName() {
             return "HornImp";
+        }
+
+        public void setPrice() {
+            super.setPrice(2500);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
         }
 
         public void setLevel() {
@@ -261,6 +285,14 @@ public class NormalMonsters extends Monsters {
             return "SilverFang";
         }
 
+        public void setPrice() {
+            super.setPrice(1700);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
+        }
+
         public void setLevel() {
             this.level = 3;
         }
@@ -342,6 +374,14 @@ public class NormalMonsters extends Monsters {
 
         public static String getName() {
             return "Fireyarou";
+        }
+
+        public void setPrice() {
+            super.setPrice(2500);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
         }
 
         public void setLevel() {
@@ -427,6 +467,14 @@ public class NormalMonsters extends Monsters {
             return "CurtainOfDarkOnes";
         }
 
+        public void setPrice() {
+            super.setPrice(700);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
+        }
+
         public void setLevel() {
             this.level = 2;
         }
@@ -508,6 +556,14 @@ public class NormalMonsters extends Monsters {
 
         public static String getName() {
             return "FeralImp";
+        }
+
+        public void setPrice() {
+            super.setPrice(2800);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
         }
 
         public void setLevel() {
@@ -593,6 +649,14 @@ public class NormalMonsters extends Monsters {
             return "DarkMagician";
         }
 
+        public void setPrice() {
+            super.setPrice(8300);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
+        }
+
         public void setLevel() {
             this.level = 7;
         }
@@ -674,6 +738,14 @@ public class NormalMonsters extends Monsters {
 
         public static String getName() {
             return "Wattkid";
+        }
+
+        public void setPrice() {
+            super.setPrice(1300);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
         }
 
         public void setLevel() {
@@ -765,6 +837,14 @@ public class NormalMonsters extends Monsters {
             return "BabyDragon";
         }
 
+        public void setPrice() {
+            super.setPrice(1600);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
+        }
+
         public void setLevel() {
             this.level = 3;
         }
@@ -846,6 +926,14 @@ public class NormalMonsters extends Monsters {
 
         public static String getName() {
             return "HeroOfTheEast";
+        }
+
+        public void setPrice() {
+            super.setPrice(1700);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
         }
 
         public void setLevel() {
@@ -931,6 +1019,14 @@ public class NormalMonsters extends Monsters {
             return "BattleWarrior";
         }
 
+        public void setPrice() {
+            super.setPrice(1300);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
+        }
+
         public void setLevel() {
             this.level = 3;
         }
@@ -1012,6 +1108,14 @@ public class NormalMonsters extends Monsters {
 
         public static String getName() {
             return "CrawlingDragon";
+        }
+
+        public void setPrice() {
+            super.setPrice(3900);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
         }
 
         public void setLevel() {
@@ -1097,6 +1201,14 @@ public class NormalMonsters extends Monsters {
             return "FlameManipulator";
         }
 
+        public void setPrice() {
+            super.setPrice(1500);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
+        }
+
         public void setLevel() {
             this.level = 3;
         }
@@ -1178,6 +1290,14 @@ public class NormalMonsters extends Monsters {
 
         public static String getName() {
             return "BlueEyesWhiteDragon";
+        }
+
+        public void setPrice() {
+            super.setPrice(11300);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
         }
 
         public void setLevel() {
@@ -1263,6 +1383,14 @@ public class NormalMonsters extends Monsters {
             return "CrabTurtle";
         }
 
+        public void setPrice() {
+            super.setPrice(10200);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
+        }
+
         public void setLevel() {
             this.level = 7;
         }
@@ -1344,6 +1472,14 @@ public class NormalMonsters extends Monsters {
 
         public static String getName() {
             return "SkullGuardian";
+        }
+
+        public void setPrice() {
+            super.setPrice(7900);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
         }
 
         public void setLevel() {
@@ -1429,6 +1565,14 @@ public class NormalMonsters extends Monsters {
             return "SlutMachine";
         }
 
+        public void setPrice() {
+            super.setPrice(7500);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
+        }
+
         public void setLevel() {
             this.level = 7;
         }
@@ -1510,6 +1654,14 @@ public class NormalMonsters extends Monsters {
 
         public static String getName() {
             return "Haniwa";
+        }
+
+        public void setPrice() {
+            super.setPrice(600);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
         }
 
         public void setLevel() {
@@ -1595,6 +1747,14 @@ public class NormalMonsters extends Monsters {
             return "Bitron";
         }
 
+        public void setPrice() {
+            super.setPrice(1000);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
+        }
+
         public void setLevel() {
             this.level = 2;
         }
@@ -1676,6 +1836,14 @@ public class NormalMonsters extends Monsters {
 
         public static String getName() {
             return "Leotron";
+        }
+
+        public void setPrice() {
+            super.setPrice(2500);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
         }
 
         public void setLevel() {
@@ -1761,6 +1929,14 @@ public class NormalMonsters extends Monsters {
             return "AlexandriteDragon";
         }
 
+        public void setPrice() {
+            super.setPrice(2600);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
+        }
+
         public void setLevel() {
             this.level = 4;
         }
@@ -1842,6 +2018,14 @@ public class NormalMonsters extends Monsters {
 
         public static String getName() {
             return "WarriorDaiGrepher";
+        }
+
+        public void setPrice() {
+            super.setPrice(3400);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
         }
 
         public void setLevel() {
@@ -1927,6 +2111,14 @@ public class NormalMonsters extends Monsters {
             return "DarkBlade";
         }
 
+        public void setPrice() {
+            super.setPrice(3500);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
+        }
+
         public void setLevel() {
             this.level = 4;
         }
@@ -2008,6 +2200,14 @@ public class NormalMonsters extends Monsters {
 
         public static String getName() {
             return "Wattialdragon";
+        }
+
+        public void setPrice() {
+            super.setPrice(5800);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
         }
 
         public void setLevel() {
@@ -2093,6 +2293,14 @@ public class NormalMonsters extends Monsters {
 
         public static String getName() {
             return "SpiralSerpent";
+        }
+
+        public void setPrice() {
+            super.setPrice(11700);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
         }
 
         public void setLevel() {
