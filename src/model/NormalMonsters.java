@@ -16,8 +16,8 @@ public class NormalMonsters extends Monsters {
             super.setPrice(2900);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 2900;
         }
 
         public void setLevel() {
@@ -111,8 +111,8 @@ public class NormalMonsters extends Monsters {
             super.setPrice(3100);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 3100;
         }
 
         public static int getLevel() {
@@ -198,8 +198,8 @@ public class NormalMonsters extends Monsters {
             super.setPrice(2500);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 2500;
         }
 
         public void setLevel() {
@@ -289,8 +289,8 @@ public class NormalMonsters extends Monsters {
             super.setPrice(1700);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 1700;
         }
 
         public void setLevel() {
@@ -380,8 +380,8 @@ public class NormalMonsters extends Monsters {
             super.setPrice(2500);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 2500;
         }
 
         public void setLevel() {
@@ -471,8 +471,8 @@ public class NormalMonsters extends Monsters {
             super.setPrice(700);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 700;
         }
 
         public void setLevel() {
@@ -562,8 +562,8 @@ public class NormalMonsters extends Monsters {
             super.setPrice(2800);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 2800;
         }
 
         public void setLevel() {
@@ -653,8 +653,8 @@ public class NormalMonsters extends Monsters {
             super.setPrice(8300);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 8300;
         }
 
         public void setLevel() {
@@ -744,8 +744,8 @@ public class NormalMonsters extends Monsters {
             super.setPrice(1300);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 1300;
         }
 
         public void setLevel() {
@@ -841,8 +841,8 @@ public class NormalMonsters extends Monsters {
             super.setPrice(1600);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 1600;
         }
 
         public void setLevel() {
@@ -932,8 +932,8 @@ public class NormalMonsters extends Monsters {
             super.setPrice(1700);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 1700;
         }
 
         public void setLevel() {
@@ -1023,8 +1023,8 @@ public class NormalMonsters extends Monsters {
             super.setPrice(1300);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 1300;
         }
 
         public void setLevel() {
@@ -1114,8 +1114,8 @@ public class NormalMonsters extends Monsters {
             super.setPrice(3900);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 3900;
         }
 
         public void setLevel() {
@@ -1205,8 +1205,8 @@ public class NormalMonsters extends Monsters {
             super.setPrice(1500);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 1500;
         }
 
         public void setLevel() {
@@ -1296,8 +1296,8 @@ public class NormalMonsters extends Monsters {
             super.setPrice(11300);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 11300;
         }
 
         public void setLevel() {
@@ -1387,8 +1387,8 @@ public class NormalMonsters extends Monsters {
             super.setPrice(10200);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 10200;
         }
 
         public void setLevel() {
@@ -1478,8 +1478,8 @@ public class NormalMonsters extends Monsters {
             super.setPrice(7900);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 7900;
         }
 
         public void setLevel() {
@@ -1569,8 +1569,8 @@ public class NormalMonsters extends Monsters {
             super.setPrice(7500);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 7500;
         }
 
         public void setLevel() {
@@ -1660,8 +1660,8 @@ public class NormalMonsters extends Monsters {
             super.setPrice(600);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 600;
         }
 
         public void setLevel() {
@@ -1751,8 +1751,8 @@ public class NormalMonsters extends Monsters {
             super.setPrice(1000);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 1000;
         }
 
         public void setLevel() {
@@ -1842,8 +1842,8 @@ public class NormalMonsters extends Monsters {
             super.setPrice(2500);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 2500;
         }
 
         public void setLevel() {
@@ -1933,8 +1933,8 @@ public class NormalMonsters extends Monsters {
             super.setPrice(2600);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 2600;
         }
 
         public void setLevel() {
@@ -2024,8 +2024,8 @@ public class NormalMonsters extends Monsters {
             super.setPrice(3400);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 3400;
         }
 
         public void setLevel() {
@@ -2115,8 +2115,8 @@ public class NormalMonsters extends Monsters {
             super.setPrice(3500);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 3500;
         }
 
         public void setLevel() {
@@ -2206,8 +2206,8 @@ public class NormalMonsters extends Monsters {
             super.setPrice(5800);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 5800;
         }
 
         public void setLevel() {
@@ -2299,8 +2299,8 @@ public class NormalMonsters extends Monsters {
             super.setPrice(11700);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 11700;
         }
 
         public void setLevel() {

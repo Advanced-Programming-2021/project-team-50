@@ -15,8 +15,8 @@ public class EffectiveMonsters extends Monsters {
             super.setPrice(2100);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 2100;
         }
 
         public void setDefenceScore() {
@@ -106,8 +106,8 @@ public class EffectiveMonsters extends Monsters {
             super.setPrice(1700);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 1700;
         }
 
         public void setAttackScore() {
@@ -197,8 +197,8 @@ public class EffectiveMonsters extends Monsters {
             super.setPrice(8700);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 8700;
         }
 
         public void setDefenceScore() {
@@ -288,8 +288,8 @@ public class EffectiveMonsters extends Monsters {
             super.setPrice(600);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 600;
         }
 
         public void setType() {
@@ -379,8 +379,8 @@ public class EffectiveMonsters extends Monsters {
             super.setPrice(20000);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 20000;
         }
 
         public void setDefenceScore() {
@@ -470,8 +470,8 @@ public class EffectiveMonsters extends Monsters {
             super.setPrice(8000);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 8000;
         }
 
         public void setType() {
@@ -561,8 +561,8 @@ public class EffectiveMonsters extends Monsters {
             super.setPrice(700);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 700;
         }
 
         public void setType() {
@@ -652,8 +652,8 @@ public class EffectiveMonsters extends Monsters {
             super.setPrice(9200);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 9200;
         }
 
         public void setType() {
@@ -743,8 +743,8 @@ public class EffectiveMonsters extends Monsters {
             super.setPrice(200);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 200;
         }
 
         public void setType() {
@@ -834,8 +834,8 @@ public class EffectiveMonsters extends Monsters {
             super.setPrice(8000);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 8000;
         }
 
         public void setType() {
@@ -925,8 +925,8 @@ public class EffectiveMonsters extends Monsters {
             super.setPrice(2500);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 2500;
         }
 
         public void setType() {
@@ -1016,8 +1016,8 @@ public class EffectiveMonsters extends Monsters {
             super.setPrice(2700);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 2700;
         }
 
         public void setType() {
@@ -1107,8 +1107,8 @@ public class EffectiveMonsters extends Monsters {
             super.setPrice(1000);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 1000;
         }
 
         public void setType() {
@@ -1198,8 +1198,8 @@ public class EffectiveMonsters extends Monsters {
             super.setPrice(3200);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 3200;
         }
 
         public void setType() {
@@ -1289,8 +1289,8 @@ public class EffectiveMonsters extends Monsters {
             super.setPrice(4300);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 4300;
         }
 
         public void setType() {
