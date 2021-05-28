@@ -7,6 +7,14 @@ public class NormalTraps extends SpellAndTraps{
             return "MagicCylinder";
         }
 
+        public void setPrice() {
+            super.setPrice(2000);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
+        }
+
         public void setName(String cardName) {
             super.setName("MagicCylinder");
         }
@@ -59,6 +67,14 @@ public class NormalTraps extends SpellAndTraps{
 
         public static String getName() {
             return "MirrorForce";
+        }
+
+        public void setPrice() {
+            super.setPrice(2000);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
         }
 
         public void setName(String cardName) {
@@ -115,6 +131,14 @@ public class NormalTraps extends SpellAndTraps{
             return "MindCrush";
         }
 
+        public void setPrice() {
+            super.setPrice(2000);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
+        }
+
         public void setName(String cardName) {
             super.setName("MindCrush");
         }
@@ -169,6 +193,14 @@ public class NormalTraps extends SpellAndTraps{
             return "TrapHole";
         }
 
+        public void setPrice() {
+            super.setPrice(2000);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
+        }
+
         public void setName(String cardName) {
             super.setName("TrapHole");
         }
@@ -221,6 +253,14 @@ public class NormalTraps extends SpellAndTraps{
 
         public static String getName() {
             return "TorrentialTribute";
+        }
+
+        public void setPrice() {
+            super.setPrice(2000);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
         }
 
         public void setName(String cardName) {
@@ -281,6 +321,14 @@ public class NormalTraps extends SpellAndTraps{
             super.setName("TimeSeal");
         }
 
+        public void setPrice() {
+            super.setPrice(2000);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
+        }
+
         public String getIcon() {
             return super.getIcon();
         }
@@ -333,6 +381,14 @@ public class NormalTraps extends SpellAndTraps{
 
         public void setName(String cardName) {
             super.setName("NegateAttack");
+        }
+
+        public void setPrice() {
+            super.setPrice(3000);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
         }
 
         public String getIcon() {
@@ -389,6 +445,14 @@ public class NormalTraps extends SpellAndTraps{
             super.setName("SolemnWarning");
         }
 
+        public void setPrice() {
+            super.setPrice(3000);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
+        }
+
         public String getIcon() {
             return super.getIcon();
         }
@@ -443,6 +507,14 @@ public class NormalTraps extends SpellAndTraps{
             super.setName("MagicJammer");
         }
 
+        public void setPrice() {
+            super.setPrice(3000);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
+        }
+
         public String getIcon() {
             return super.getIcon();
         }
@@ -495,6 +567,14 @@ public class NormalTraps extends SpellAndTraps{
 
         public void setName(String cardName) {
             super.setName("CallOfTheHaunted");
+        }
+
+        public void setPrice() {
+            super.setPrice(3500);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
         }
 
         public String getIcon() {
