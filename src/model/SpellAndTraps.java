@@ -5,6 +5,7 @@ class SpellAndTraps extends Cards {
     public static String type;
     public String icon;
     public String spellCardName;
+    protected int price;
 
     //ArrayList
 
