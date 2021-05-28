@@ -11,8 +11,8 @@ public class NormalTraps extends SpellAndTraps{
             super.setPrice(2000);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 2000;
         }
 
         public void setName(String cardName) {
@@ -73,8 +73,8 @@ public class NormalTraps extends SpellAndTraps{
             super.setPrice(2000);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 2000;
         }
 
         public void setName(String cardName) {
@@ -135,8 +135,8 @@ public class NormalTraps extends SpellAndTraps{
             super.setPrice(2000);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 2000;
         }
 
         public void setName(String cardName) {
@@ -197,8 +197,8 @@ public class NormalTraps extends SpellAndTraps{
             super.setPrice(2000);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 2000;
         }
 
         public void setName(String cardName) {
@@ -259,8 +259,8 @@ public class NormalTraps extends SpellAndTraps{
             super.setPrice(2000);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 2000;
         }
 
         public void setName(String cardName) {
@@ -325,8 +325,8 @@ public class NormalTraps extends SpellAndTraps{
             super.setPrice(2000);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 2000;
         }
 
         public String getIcon() {
@@ -387,8 +387,8 @@ public class NormalTraps extends SpellAndTraps{
             super.setPrice(3000);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 3000;
         }
 
         public String getIcon() {
@@ -449,8 +449,8 @@ public class NormalTraps extends SpellAndTraps{
             super.setPrice(3000);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 3000;
         }
 
         public String getIcon() {
@@ -511,8 +511,8 @@ public class NormalTraps extends SpellAndTraps{
             super.setPrice(3000);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 3000;
         }
 
         public String getIcon() {
@@ -573,8 +573,8 @@ public class NormalTraps extends SpellAndTraps{
             super.setPrice(3500);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 3500;
         }
 
         public String getIcon() {
