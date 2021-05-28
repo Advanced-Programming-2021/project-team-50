@@ -11,6 +11,14 @@ public class EffectiveMonsters extends Monsters {
             this.attackScore = 1000;
         }
 
+        public void setPrice() {
+            super.setPrice(2100);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
+        }
+
         public void setDefenceScore() {
             this.defenceScore = 1000;
         }
@@ -92,6 +100,14 @@ public class EffectiveMonsters extends Monsters {
 
         public void setDefenceScore() {
             this.defenceScore = 1400;
+        }
+
+        public void setPrice() {
+            super.setPrice(1700);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
         }
 
         public void setAttackScore() {
@@ -177,6 +193,14 @@ public class EffectiveMonsters extends Monsters {
             this.attackScore = 2500;
         }
 
+        public void setPrice() {
+            super.setPrice(8700);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
+        }
+
         public void setDefenceScore() {
             this.defenceScore = 2400;
         }
@@ -258,6 +282,14 @@ public class EffectiveMonsters extends Monsters {
 
         public void setLevel() {
             this.level = 2;
+        }
+
+        public void setPrice() {
+            super.setPrice(600);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
         }
 
         public void setType() {
@@ -343,6 +375,14 @@ public class EffectiveMonsters extends Monsters {
             this.attackScore = 3750;
         }
 
+        public void setPrice() {
+            super.setPrice(20000);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
+        }
+
         public void setDefenceScore() {
             this.defenceScore = 3400;
         }
@@ -424,6 +464,14 @@ public class EffectiveMonsters extends Monsters {
 
         public void setLevel() {
             this.level = 1;
+        }
+
+        public void setPrice() {
+            super.setPrice(8000);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
         }
 
         public void setType() {
@@ -509,6 +557,14 @@ public class EffectiveMonsters extends Monsters {
             this.level = 3;
         }
 
+        public void setPrice() {
+            super.setPrice(700);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
+        }
+
         public void setType() {
             this.type = "Fairy";
         }
@@ -590,6 +646,14 @@ public class EffectiveMonsters extends Monsters {
 
         public void setLevel() {
             this.level = 8;
+        }
+
+        public void setPrice() {
+            super.setPrice(9200);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
         }
 
         public void setType() {
@@ -675,6 +739,14 @@ public class EffectiveMonsters extends Monsters {
             this.level = 1;
         }
 
+        public void setPrice() {
+            super.setPrice(200);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
+        }
+
         public void setType() {
             this.type = "Cyberse";
         }
@@ -756,6 +828,14 @@ public class EffectiveMonsters extends Monsters {
 
         public void setLevel() {
             this.level = 2;
+        }
+
+        public void setPrice() {
+            super.setPrice(8000);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
         }
 
         public void setType() {
@@ -841,6 +921,14 @@ public class EffectiveMonsters extends Monsters {
             this.level = 4;
         }
 
+        public void setPrice() {
+            super.setPrice(2500);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
+        }
+
         public void setType() {
             this.type = "Dragon";
         }
@@ -922,6 +1010,14 @@ public class EffectiveMonsters extends Monsters {
 
         public void setLevel() {
             this.level = 4;
+        }
+
+        public void setPrice() {
+            super.setPrice(2700);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
         }
 
         public void setType() {
@@ -1007,6 +1103,14 @@ public class EffectiveMonsters extends Monsters {
             this.level = 3;
         }
 
+        public void setPrice() {
+            super.setPrice(1000);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
+        }
+
         public void setType() {
             this.type = "Dragon";
         }
@@ -1090,6 +1194,14 @@ public class EffectiveMonsters extends Monsters {
             this.level = 4;
         }
 
+        public void setPrice() {
+            super.setPrice(3200);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
+        }
+
         public void setType() {
             this.type = "Warrior";
         }
@@ -1171,6 +1283,14 @@ public class EffectiveMonsters extends Monsters {
 
         public void setLevel() {
             this.level = 5;
+        }
+
+        public void setPrice() {
+            super.setPrice(4300);
+        }
+
+        public int getPrice() {
+            return super.getPrice();
         }
 
         public void setType() {
