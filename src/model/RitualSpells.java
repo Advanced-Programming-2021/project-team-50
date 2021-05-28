@@ -15,8 +15,8 @@ public class RitualSpells extends SpellAndTraps{
             super.setPrice(3000);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 3000;
         }
 
         public String getIcon() {

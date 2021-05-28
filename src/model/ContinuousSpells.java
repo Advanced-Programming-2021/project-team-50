@@ -15,7 +15,7 @@ public class ContinuousSpells extends SpellAndTraps{
             super.setPrice(4000);
         }
 
-        public int getPrice() {
+        public static int getPrice() {
             return super.getPrice();
         }
 
@@ -76,7 +76,7 @@ public class ContinuousSpells extends SpellAndTraps{
             super.setPrice(4000);
         }
 
-        public int getPrice() {
+        public static int getPrice() {
             return super.getPrice();
         }
 
@@ -137,7 +137,7 @@ public class ContinuousSpells extends SpellAndTraps{
             super.setPrice(4000);
         }
 
-        public int getPrice() {
+        public static int getPrice() {
             return super.getPrice();
         }
 

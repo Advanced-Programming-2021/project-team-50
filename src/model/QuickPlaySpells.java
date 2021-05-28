@@ -15,8 +15,8 @@ public class QuickPlaySpells extends SpellAndTraps{
             super.setPrice(3500);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 3500;
         }
 
         public String getIcon() {
@@ -77,8 +77,8 @@ public class QuickPlaySpells extends SpellAndTraps{
             super.setPrice(3500);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 3500;
         }
 
         public String getIcon() {
@@ -139,8 +139,8 @@ public class QuickPlaySpells extends SpellAndTraps{
             super.setPrice(3500);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 3500;
         }
 
         public String getIcon() {

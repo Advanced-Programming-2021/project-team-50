@@ -15,8 +15,8 @@ public class EquipSpells extends SpellAndTraps{
             super.setPrice(4300);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 4300;
         }
 
         public String getIcon() {
@@ -77,8 +77,8 @@ public class EquipSpells extends SpellAndTraps{
             super.setPrice(4300);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 4300;
         }
 
         public String getIcon() {
@@ -139,8 +139,8 @@ public class EquipSpells extends SpellAndTraps{
             super.setPrice(4300);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 4300;
         }
 
         public String getIcon() {
@@ -201,8 +201,8 @@ public class EquipSpells extends SpellAndTraps{
             super.setPrice(4300);
         }
 
-        public int getPrice() {
-            return super.getPrice();
+        public static int getPrice() {
+            return 4300;
         }
 
         public String getIcon() {
